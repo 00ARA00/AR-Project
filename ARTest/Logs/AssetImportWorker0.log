@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 16320 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 40699 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\unity\2022.3.15f1\Editor\Unity.exe
+D:\UnityHub\Other\2022.3.15f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/AR-Project/ARTest
+F:/Unity Projects/AR-Project/ARTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64625
-Successfully changed project path to: D:/AR-Project/ARTest
-D:/AR-Project/ARTest
+51952
+Successfully changed project path to: F:/Unity Projects/AR-Project/ARTest
+F:/Unity Projects/AR-Project/ARTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,74 @@ D:/AR-Project/ARTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8816] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 367563174 [EditorId] 367563174 [Version] 1048832 [Id] WindowsEditor(7,Utyug) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22084] Host "[IP] 25.35.104.246 [Port] 0 [Flags] 2 [Guid] 2759147431 [EditorId] 2759147431 [Version] 1048832 [Id] WindowsEditor(7,Sercher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8816] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 367563174 [EditorId] 367563174 [Version] 1048832 [Id] WindowsEditor(7,Utyug) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22084] Host "[IP] 25.35.104.246 [Port] 0 [Flags] 2 [Guid] 2759147431 [EditorId] 2759147431 [Version] 1048832 [Id] WindowsEditor(7,Sercher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 20.03 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 10.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
-[Subsystems] Discovering subsystems at path D:/unity/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/AR-Project/ARTest/Assets
+[Subsystems] Discovering subsystems at path D:/UnityHub/Other/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity Projects/AR-Project/ARTest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
     Vendor:   NVIDIA
-    VRAM:     3930 MB
-    Driver:   32.0.15.5612
+    VRAM:     7948 MB
+    Driver:   32.0.15.5599
 Initialize mono
-Mono path[0] = 'D:/unity/2022.3.15f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/unity/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Mono path[0] = 'D:/UnityHub/Other/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/Other/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/Other/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/unity/2022.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: D:/unity/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014301 seconds.
-- Loaded All Assemblies, in  0.761 seconds
+Register platform support module: D:/UnityHub/Other/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityHub/Other/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/UnityHub/Other/2022.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/UnityHub/Other/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006072 seconds.
+- Loaded All Assemblies, in  0.455 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1630 ms
+Android Extension - Scanning For ADB Devices 2356 ms
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.479 seconds
-Domain Reload Profiling: 3240ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  2.799 seconds
+Domain Reload Profiling: 3254ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (346ms)
-		LoadAssemblies (199ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (336ms)
-			TypeCache.Refresh (334ms)
-				TypeCache.ScanAssembly (306ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (170ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (2480ms)
+	FinalizeReload (2799ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2358ms)
+		SetupLoadedEditorAssemblies (2724ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1925ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (2512ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (10ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,11 +124,12 @@ Domain Reload Profiling: 3240ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.437 seconds
-Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.911 seconds
+Refreshing native plugins compatible for Editor in 5.67 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -141,47 +144,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.617 seconds
-Domain Reload Profiling: 3054ms
-	BeginReloadAssembly (322ms)
+- Finished resetting the current domain, in  1.070 seconds
+Domain Reload Profiling: 1980ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (926ms)
-		LoadAssemblies (562ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (372ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (523ms)
-			TypeCache.Refresh (436ms)
-				TypeCache.ScanAssembly (401ms)
-			ScanForSourceGeneratedMonoScriptInfo (61ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (1618ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1071ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1273ms)
+		SetupLoadedEditorAssemblies (823ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (868ms)
-			ProcessInitializeOnLoadMethodAttributes (198ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (2ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6688 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (3.5 MB). Loaded Objects now: 7121.
-Memory consumption went from 256.1 MB to 252.6 MB.
-Total: 14.342600 ms (FindLiveObjects: 0.724400 ms CreateObjectMapping: 0.962300 ms MarkObjects: 10.446300 ms  DeleteObjects: 2.208400 ms)
+Unloading 91 unused Assets / (1.9 MB). Loaded Objects now: 7146.
+Memory consumption went from 258.2 MB to 256.3 MB.
+Total: 6.660500 ms (FindLiveObjects: 0.454300 ms CreateObjectMapping: 0.180200 ms MarkObjects: 4.710000 ms  DeleteObjects: 1.314600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,26 +195,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 792.492360 seconds.
+  Time since last request: 35857.179801 seconds.
   path: Assets/DefaultSimulationEnvironment 1.prefab
   artifactKey: Guid(e7f0f953544380f40bd1b5e13c516c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultSimulationEnvironment 1.prefab using Guid(e7f0f953544380f40bd1b5e13c516c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3fcc7d60e1a355d955b3f9ab6a97b4') in 0.591041 seconds
+Start importing Assets/DefaultSimulationEnvironment 1.prefab using Guid(e7f0f953544380f40bd1b5e13c516c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68405e3fcddd55e33421a5468a3f9a52') in 0.665600 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 45
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.662 seconds
-Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 4.34 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -222,119 +227,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.818 seconds
-Domain Reload Profiling: 2479ms
-	BeginReloadAssembly (254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (286ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (37ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (1818ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (933ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (598ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 4.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6535 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (3.5 MB). Loaded Objects now: 7173.
-Memory consumption went from 233.4 MB to 229.9 MB.
-Total: 9.476200 ms (FindLiveObjects: 0.894300 ms CreateObjectMapping: 1.159700 ms MarkObjects: 4.540300 ms  DeleteObjects: 2.880700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.664 seconds
-Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.828 seconds
-Domain Reload Profiling: 2492ms
-	BeginReloadAssembly (241ms)
+- Finished resetting the current domain, in  1.433 seconds
+Domain Reload Profiling: 1981ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (379ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (313ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (1829ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1433ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (941ms)
+		SetupLoadedEditorAssemblies (727ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (56ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (597ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6536 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (3.4 MB). Loaded Objects now: 7178.
-Memory consumption went from 235.4 MB to 232.0 MB.
-Total: 13.154500 ms (FindLiveObjects: 3.817700 ms CreateObjectMapping: 1.033700 ms MarkObjects: 5.588000 ms  DeleteObjects: 2.713800 ms)
+Unloading 6508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.9 MB). Loaded Objects now: 7200.
+Memory consumption went from 229.4 MB to 227.5 MB.
+Total: 6.002700 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.236700 ms MarkObjects: 4.279100 ms  DeleteObjects: 1.005700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -346,18 +278,236 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 55.663558 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(dfd117ab5d00545419e681b68d383799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(dfd117ab5d00545419e681b68d383799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31de4bfd47833a499b0dcf121238288c') in 0.008108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.561881 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(4755b35b590504809a7525fd2109c2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(4755b35b590504809a7525fd2109c2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cb5340b7fe4c45afcc96ce1a4e7264') in 0.000727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 68.535032 seconds.
+  path: Assets/ProjectFolder/Jokerge.jpg
+  artifactKey: Guid(f3b5baeafb10f8841beb64d39fc936ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectFolder/Jokerge.jpg using Guid(f3b5baeafb10f8841beb64d39fc936ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305688ad1d070a38447c8e2a7c2f6719') in 0.080707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ProjectFolder/SimulationDefaultTrackedImage.mat
+  artifactKey: Guid(22723a6e47a95934b8c1a028522a5a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectFolder/SimulationDefaultTrackedImage.mat using Guid(22723a6e47a95934b8c1a028522a5a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fe481746a500a1faf8b2842c46977c') in 0.265416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ProjectFolder/XR Origin (AR Rig).prefab
+  artifactKey: Guid(57c7a7a8a4e83954e9fee973b1ec7a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectFolder/XR Origin (AR Rig).prefab using Guid(57c7a7a8a4e83954e9fee973b1ec7a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc09bc60189a588fd323aa61125586f8') in 0.023653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ProjectFolder/Jokerge.prefab
+  artifactKey: Guid(97ff2eb95a0af7d4aa711222b41f299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectFolder/Jokerge.prefab using Guid(97ff2eb95a0af7d4aa711222b41f299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e61635ba68495e015b0bfc2348dd907') in 0.042076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ProjectFolder/ReferenceImageLibrary.asset
+  artifactKey: Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectFolder/ReferenceImageLibrary.asset using Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4225256c176d1361d6f2528807ba1d2d') in 0.081181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.601584 seconds.
+  path: Assets/ProjectFolder
+  artifactKey: Guid(3e51b9d48cef74d46a037ed407353f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectFolder using Guid(3e51b9d48cef74d46a037ed407353f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d2dfa928a46b319f08408bea828b34') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 106.046155 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(3fd4fc0127790db4bae83f7b77da8d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(3fd4fc0127790db4bae83f7b77da8d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fa8e41000a049681e2e7d0c69531cd') in 0.001704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/XR
+  artifactKey: Guid(51826be0437e2d84099d9656c779aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(51826be0437e2d84099d9656c779aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5fcee13559ff00831c5eca84ced904') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.929938 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.319362 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(f00bb4365025604418d4602cb19a9cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(f00bb4365025604418d4602cb19a9cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4c6ee4795a5ad370d1b2fddd51ed08') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.052837 seconds.
+  path: Assets/Game
+  artifactKey: Guid(f00bb4365025604418d4602cb19a9cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game using Guid(f00bb4365025604418d4602cb19a9cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c95c9b25aac706cd24760249845880') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.078086 seconds.
+  path: Assets/Modules
+  artifactKey: Guid(1d407bf87f4c4c640b2af3442c83b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules using Guid(1d407bf87f4c4c640b2af3442c83b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcabe263ce099e9603b696224fbc7ac') in 0.000921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 242.359233 seconds.
+  path: Assets/MobileARTemplateAssets
+  artifactKey: Guid(280af35f871984212a3e6608d213f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets using Guid(280af35f871984212a3e6608d213f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c172625ac821fe41459158629e55b68f') in 0.001265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.197963 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/ArchVariant.prefab
+  artifactKey: Guid(b1b37ac0eaa6a9a4785fc1f26065e8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/ArchVariant.prefab using Guid(b1b37ac0eaa6a9a4785fc1f26065e8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ce052ae3e929c7ecef888048c4efd8') in 0.850211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/CubeVariant.prefab
+  artifactKey: Guid(d825bbdf58c379d4290da92e387f71d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/CubeVariant.prefab using Guid(d825bbdf58c379d4290da92e387f71d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124089a0933a8f191bfe6818eb1134fa') in 0.041000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/PyramidVariant.prefab
+  artifactKey: Guid(3cbfcd4079a5031478389d5ab3c8c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/PyramidVariant.prefab using Guid(3cbfcd4079a5031478389d5ab3c8c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897b6ef9f81cd7ef328511fdcaab9a8f') in 0.036514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/TorusVariant.prefab
+  artifactKey: Guid(23412048bf4821d4f8bf5c7d9c1abd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/TorusVariant.prefab using Guid(23412048bf4821d4f8bf5c7d9c1abd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9270e443cb8fe04d928f05591ef0b10') in 0.030074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/ARFeatheredPlane.prefab
+  artifactKey: Guid(886609fc1566e4c27b399f1095d6de18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/ARFeatheredPlane.prefab using Guid(886609fc1566e4c27b399f1095d6de18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094f2790e073f68464a5c09c9dcaf61e') in 0.002860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs
+  artifactKey: Guid(b7aee93f4e3ed47fdb8b59bd5c82fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs using Guid(b7aee93f4e3ed47fdb8b59bd5c82fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288474602668e7c36ef10bbbfd779886') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/DebugCubeVariant.prefab
+  artifactKey: Guid(98cdacc32bf0d8d469092762a7263c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/DebugCubeVariant.prefab using Guid(98cdacc32bf0d8d469092762a7263c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396fe76e7a73ab8bb082b2b4609acda1') in 0.034377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/CylinderVariant.prefab
+  artifactKey: Guid(daca7e1cd0a975941a64a8a9cbd8e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/CylinderVariant.prefab using Guid(daca7e1cd0a975941a64a8a9cbd8e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d846abc720e43142d1ab95fff52a0b6') in 0.032862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MobileARTemplateAssets/Prefabs/WedgeVariant.prefab
+  artifactKey: Guid(aaf6326249753074fbc1148303020f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileARTemplateAssets/Prefabs/WedgeVariant.prefab using Guid(aaf6326249753074fbc1148303020f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7b19ce2537d27279e79ffaf64f781c') in 0.030893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 12.450933 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(ec29097e024b344869b1b69721a67834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(ec29097e024b344869b1b69721a67834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc7394ef97711631cfe330c3e07072f') in 0.000830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.831559 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(2c04883428b37423ebafc283e6d18ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(2c04883428b37423ebafc283e6d18ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69677ed970bc8cbb09cc0927a1a0ed05') in 0.000604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.319131 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2
+  artifactKey: Guid(3bf1fe1f4300ff24bb2af5c019ee7fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2 using Guid(3bf1fe1f4300ff24bb2af5c019ee7fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1255735090d79816346856c12c7c033d') in 0.000758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.675 seconds
-Refreshing native plugins compatible for Editor in 7.17 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 4.20 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -368,46 +518,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.926 seconds
-Domain Reload Profiling: 2600ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  1.860 seconds
+Domain Reload Profiling: 2659ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (376ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (488ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (57ms)
 			ResolveRequiredComponents (26ms)
-	FinalizeReload (1927ms)
+	FinalizeReload (1861ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (977ms)
+		SetupLoadedEditorAssemblies (802ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (56ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (612ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 4.98 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6536 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (3.5 MB). Loaded Objects now: 7183.
-Memory consumption went from 237.5 MB to 234.0 MB.
-Total: 11.711800 ms (FindLiveObjects: 0.684700 ms CreateObjectMapping: 0.892800 ms MarkObjects: 4.447400 ms  DeleteObjects: 5.685900 ms)
+Unloading 6509 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7276.
+Memory consumption went from 232.2 MB to 230.4 MB.
+Total: 6.846700 ms (FindLiveObjects: 0.516200 ms CreateObjectMapping: 0.189900 ms MarkObjects: 4.915800 ms  DeleteObjects: 1.223300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -419,18 +569,263 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.480150 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590fa22b40341c212b8176897fa41ce') in 0.002845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.626911 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce47c542f8ab7d441e5d57db9bcbd52d') in 0.013048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571301f22fe8ee7cc09690b729b238fe') in 0.001822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(585ae6eb13be34e26b0b5f03b3b6e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(585ae6eb13be34e26b0b5f03b3b6e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af1d86c11937c4aa6935200d9138e81') in 0.001353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25321ec09554c682f757cfe436a3a110') in 0.000950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.528676 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539788fea73926d38e17274c55d5d4cc') in 0.000598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.940472 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(6807a1956e5e343df9d749230187e0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(6807a1956e5e343df9d749230187e0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85165918a33c8a2dc1c6f4c179b58f2d') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.086387 seconds.
+  path: Assets/AR
+  artifactKey: Guid(d586eab81b468874793716c7a9fb7f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR using Guid(d586eab81b468874793716c7a9fb7f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2137c726fe6ebe87088a1bcdebb9b8de') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.493 seconds
+Domain Reload Profiling: 2090ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (794ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 4.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7281.
+Memory consumption went from 233.9 MB to 232.1 MB.
+Total: 6.612200 ms (FindLiveObjects: 0.482000 ms CreateObjectMapping: 0.255900 ms MarkObjects: 4.881100 ms  DeleteObjects: 0.991500 ms)
+
+Prepare: number of updated asset objects reloaded= 9
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.472 seconds
+Domain Reload Profiling: 2062ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (785ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 4.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (3.4 MB). Loaded Objects now: 7185.
-Memory consumption went from 137.2 MB to 133.8 MB.
-Total: 16.563700 ms (FindLiveObjects: 0.760600 ms CreateObjectMapping: 0.775600 ms MarkObjects: 12.190900 ms  DeleteObjects: 2.835300 ms)
+Unloading 6508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7286.
+Memory consumption went from 235.9 MB to 234.1 MB.
+Total: 6.196800 ms (FindLiveObjects: 0.446100 ms CreateObjectMapping: 0.189600 ms MarkObjects: 4.534700 ms  DeleteObjects: 1.024700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -442,7 +837,763 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.568708 seconds.
+  path: Assets/Modules/UI
+  artifactKey: Guid(faa534639957e344699935e1780ed166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/UI using Guid(faa534639957e344699935e1780ed166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb8e957be3fd1b0d135b877144a621f') in 0.008275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.561795 seconds.
+  path: Assets/Modules/Visual
+  artifactKey: Guid(81a1e2912401d474fa482e682820aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Visual using Guid(81a1e2912401d474fa482e682820aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e83ae1cdfa882c21143d9a772f66d9e') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.929252 seconds.
+  path: Assets/Modules/Effects
+  artifactKey: Guid(e02de44c7ab9fd24db28c687b590349a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Effects using Guid(e02de44c7ab9fd24db28c687b590349a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96641d4bb84a8850d7ccea0ac29ecfce') in 0.000595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.071551 seconds.
+  path: Assets/Modules/Sstems
+  artifactKey: Guid(e900aea65d5a97245829b6cf6834b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Sstems using Guid(e900aea65d5a97245829b6cf6834b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4155e5e95129f203a33a020c0069c4') in 0.000900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.962247 seconds.
+  path: Assets/Modules/Systems
+  artifactKey: Guid(e900aea65d5a97245829b6cf6834b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Systems using Guid(e900aea65d5a97245829b6cf6834b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c34c6ba589a4adb6398e0788bbe40dc') in 0.000672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.656 seconds
+Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.599 seconds
+Domain Reload Profiling: 2254ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (837ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7291.
+Memory consumption went from 237.8 MB to 236.0 MB.
+Total: 6.576300 ms (FindLiveObjects: 0.538900 ms CreateObjectMapping: 0.246800 ms MarkObjects: 4.781000 ms  DeleteObjects: 1.008000 ms)
+
+Prepare: number of updated asset objects reloaded= 9
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.220047 seconds.
+  path: Assets/Game/ProjectFolder/SpawnObjectOnImage.cs
+  artifactKey: Guid(0a95da8a7ac170e47ab9ac1a039e967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/SpawnObjectOnImage.cs using Guid(0a95da8a7ac170e47ab9ac1a039e967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbda6a512f18eb8bf8b6b0b9a4c08d8') in 0.002810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.888247 seconds.
+  path: Assets/Game/ProjectFolder/Prefabs
+  artifactKey: Guid(f1165c28d2d04d249b7e900b1345c200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Prefabs using Guid(f1165c28d2d04d249b7e900b1345c200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcdf1cf877c9aec7034fb40f96ccb92') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.751142 seconds.
+  path: Assets/Game/ProjectFolder/Sccripts
+  artifactKey: Guid(962eaf539d7f447458a831007e14385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Sccripts using Guid(962eaf539d7f447458a831007e14385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe38674e4276d4fd6180710c8639486') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.135366 seconds.
+  path: Assets/Game/ProjectFolder/Scripts
+  artifactKey: Guid(962eaf539d7f447458a831007e14385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Scripts using Guid(962eaf539d7f447458a831007e14385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffb481c42e0642bd0c3247a10f7a71a') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.941230 seconds.
+  path: Assets/Game/ProjectFolder/Animations
+  artifactKey: Guid(61926ebc6e51bef4bbd8ed766c0e74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Animations using Guid(61926ebc6e51bef4bbd8ed766c0e74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b479f74ebada5498da3848194a6850') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.019769 seconds.
+  path: Assets/Game/ProjectFolder/Audio
+  artifactKey: Guid(b8e617c9121a7914ca3c686974ac8303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Audio using Guid(b8e617c9121a7914ca3c686974ac8303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccff16f018ad6b5c20b0f5c879f1c6e') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.194581 seconds.
+  path: Assets/Game/ProjectFolder/Audio/Resources
+  artifactKey: Guid(799ed0f61999c9043bf5382b6434a1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Audio/Resources using Guid(799ed0f61999c9043bf5382b6434a1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af001dbd98ebc128e2728349f608347') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.405999 seconds.
+  path: Assets/Game/ProjectFolder/Audio/Resources/Music/menu_music.ogg
+  artifactKey: Guid(0c5401dfa1a4d1847b375bd3c73ce989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Audio/Resources/Music/menu_music.ogg using Guid(0c5401dfa1a4d1847b375bd3c73ce989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df97eea33e6631555bc7c8cdf31968f') in 0.117212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/ProjectFolder/Audio/Resources/Music
+  artifactKey: Guid(d9d619dddd56e044ea0c84260d26dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Audio/Resources/Music using Guid(d9d619dddd56e044ea0c84260d26dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a742db16c31cad6951ebafdf34c1c394') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.251164 seconds.
+  path: Assets/Game/ProjectFolder/Resources
+  artifactKey: Guid(381919b3fefe8824e9324495ac2e416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Resources using Guid(381919b3fefe8824e9324495ac2e416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255fd2029c3fce45acf5897c1ec626f9') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.974674 seconds.
+  path: Assets/Game/ProjectFolder/ScrObj
+  artifactKey: Guid(61243d5848a583142a76918e2254559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/ScrObj using Guid(61243d5848a583142a76918e2254559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94863230799441333a790dc4bc88ba9d') in 0.000836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.192377 seconds.
+  path: Assets/Game/ProjectFolder/Sprites
+  artifactKey: Guid(278a9f7ccead8fc47840d2f9f380db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Sprites using Guid(278a9f7ccead8fc47840d2f9f380db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3990cb0f8b490b6a02b321b58b1398') in 0.000612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.465874 seconds.
+  path: Assets/Game/ProjectFolder/AR RefImages
+  artifactKey: Guid(8a0c0f04fd2f2dc4abb66b93a2c887cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/AR RefImages using Guid(8a0c0f04fd2f2dc4abb66b93a2c887cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03f5b5902573bc61d2073d7b6b8760f') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.731820 seconds.
+  path: Assets/Game/ProjectFolder/Materials
+  artifactKey: Guid(4ca68416206938043851be7e6ce3c9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ProjectFolder/Materials using Guid(4ca68416206938043851be7e6ce3c9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c19725fd545f8fdb120d36010297f9f') in 0.000736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.985 seconds
+Refreshing native plugins compatible for Editor in 4.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 29.691 seconds
+Domain Reload Profiling: 34675ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (254ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (4410ms)
+		LoadAssemblies (4497ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (29692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (730ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7298.
+Memory consumption went from 239.9 MB to 238.0 MB.
+Total: 6.537400 ms (FindLiveObjects: 0.459300 ms CreateObjectMapping: 0.203500 ms MarkObjects: 4.724900 ms  DeleteObjects: 1.148500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.591 seconds
+Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.444 seconds
+Domain Reload Profiling: 2034ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (754ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 4.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7303.
+Memory consumption went from 241.7 MB to 240.0 MB.
+Total: 5.794600 ms (FindLiveObjects: 0.459000 ms CreateObjectMapping: 0.183600 ms MarkObjects: 4.150600 ms  DeleteObjects: 0.999600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.208778 seconds.
+  path: Assets/Modules/Systems/RedDreams
+  artifactKey: Guid(8a6cd52c5c61caf4daf7447b8f573d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Systems/RedDreams using Guid(8a6cd52c5c61caf4daf7447b8f573d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f7c43417cc1e67c515e64b0dfb483b') in 0.005173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 5.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.506 seconds
+Domain Reload Profiling: 2106ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (830ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6582 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7382.
+Memory consumption went from 245.1 MB to 243.3 MB.
+Total: 5.940400 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.190700 ms MarkObjects: 4.239900 ms  DeleteObjects: 1.035600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 235.359206 seconds.
+  path: Assets/Modules/Systems/RedDreams/InventorySystem
+  artifactKey: Guid(80395482f2ba40a40b5149ba4a1701f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Systems/RedDreams/InventorySystem using Guid(80395482f2ba40a40b5149ba4a1701f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed921311d4dfc9637e158d20e8663586') in 0.003674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.336723 seconds.
+  path: Assets/Modules/Systems/RedDreams/InventorySystem/Core
+  artifactKey: Guid(ce624d62bfd40084f86dbdf5553295c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Systems/RedDreams/InventorySystem/Core using Guid(ce624d62bfd40084f86dbdf5553295c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88631375b97a9078b66223a43d3a7b7') in 0.000613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 4.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Modules/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.707 seconds
+Domain Reload Profiling: 2327ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (854ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6585 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.8 MB). Loaded Objects now: 7390.
+Memory consumption went from 247.0 MB to 245.3 MB.
+Total: 5.748400 ms (FindLiveObjects: 0.466800 ms CreateObjectMapping: 0.186300 ms MarkObjects: 4.056100 ms  DeleteObjects: 1.037900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76.491048 seconds.
+  path: Assets/Game/Prefabs/Systems.prefab
+  artifactKey: Guid(884ce9755a907ce43bd59ab4ea8579e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Systems.prefab using Guid(884ce9755a907ce43bd59ab4ea8579e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e84fcdb1dc12093e9737b9967eb6fe5') in 0.049772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 33.457437 seconds.
+  path: Assets/Game/Scripts/PoolContainer/CommonPool.cs
+  artifactKey: Guid(1f8bed7e80c948c499aeca69fbeedd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/PoolContainer/CommonPool.cs using Guid(1f8bed7e80c948c499aeca69fbeedd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6057c85523b3a8e2f1303a06df3c97a0') in 0.000874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.807703 seconds.
+  path: Assets/Game/Scripts/PoolContainer/CommonContainer.cs
+  artifactKey: Guid(c7075287f2941b64d8dc1ff5178ba9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/PoolContainer/CommonContainer.cs using Guid(c7075287f2941b64d8dc1ff5178ba9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8edb525dab39a7342f78a4805e78c54') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
