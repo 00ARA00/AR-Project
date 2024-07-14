@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AR-Project\\ARTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|d:\\ar-project\\artest\\assets\\mobileartemplateassets\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\mobileartemplateassets\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GoalManager.cs",
+              "DocumentMoniker": "D:\\AR-Project\\ARTest\\Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
+              "ToolTip": "D:\\AR-Project\\ARTest\\Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
+              "RelativeToolTip": "Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAAAEwOoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T02:15:24.035Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
