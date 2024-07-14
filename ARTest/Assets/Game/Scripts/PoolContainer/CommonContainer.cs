@@ -1,3 +1,4 @@
+using Gameplay.Heroes;
 using PoolsContainer.Core;
 
 namespace PoolsContainer.Example

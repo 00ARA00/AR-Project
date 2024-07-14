@@ -9,6 +9,7 @@ public class SpawnObjectOnImage : MonoBehaviour
 {
     [SerializeField] private ARTrackedImageManager _trackedImagesManager;
     [SerializeField] private GameObject[] ArPrefabs;
+
     private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new Dictionary<string, GameObject>();
 
     void OnEnable()
