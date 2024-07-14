@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AR-Project\\ARTest\\",
+  "WorkspaceRootPath": "F:\\Unity Projects\\AR-Project\\ARTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|d:\\ar-project\\artest\\assets\\mobileartemplateassets\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\mobileartemplateassets\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|f:\\unity projects\\ar-project\\artest\\assets\\modules\\systems\\reddreams\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\modules\\systems\\reddreams\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GoalManager.cs",
-              "DocumentMoniker": "D:\\AR-Project\\ARTest\\Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
-              "ToolTip": "D:\\AR-Project\\ARTest\\Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
-              "RelativeToolTip": "Assets\\MobileARTemplateAssets\\Scripts\\GoalManager.cs",
-              "ViewState": "AQIAANcAAAAAAAAAAAAEwOoAAAA9AAAA",
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
+              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
+              "RelativeToolTip": "Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T02:15:24.035Z",
+              "WhenOpened": "2024-07-14T13:24:57.576Z",
               "EditorCaption": ""
             }
           ]
