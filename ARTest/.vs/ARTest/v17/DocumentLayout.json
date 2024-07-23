@@ -1,46 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Unity Projects\\AR-Project\\ARTest\\",
+  "WorkspaceRootPath": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|f:\\unity projects\\ar-project\\artest\\assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\game\\scripts\\herocreatesystems\\herocreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\herocreatesystems\\herocreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|f:\\unity projects\\ar-project\\artest\\assets\\game\\scripts\\poolcontainer\\commonpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\poolcontainer\\commonpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\game\\scripts\\poolcontainer\\commoncontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\poolcontainer\\commoncontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\game\\scripts\\heroes\\heroinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\heroes\\heroinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\game\\scripts\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\game\\scripts\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\game\\scripts\\spawnobjectonimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\spawnobjectonimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DE4281-B06A-6C6F-499A-B9E8B5B4CEF7}|Unity.XR.ARFoundation.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\library\\packagecache\\com.unity.xr.arfoundation@5.1.1\\runtime\\arfoundation\\artrackedimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DE4281-B06A-6C6F-499A-B9E8B5B4CEF7}|Unity.XR.ARFoundation.csproj|solutionrelative:library\\packagecache\\com.unity.xr.arfoundation@5.1.1\\runtime\\arfoundation\\artrackedimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\modules\\systems\\reddreams\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\modules\\systems\\reddreams\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|c:\\users\\den\\documents\\github\\ar-project\\artest\\assets\\arori trash\\artracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\arori trash\\artracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,125 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HeroCreateSystem.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ARTracking.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Arori trash\\ARTracking.cs",
+              "RelativeDocumentMoniker": "Assets\\Arori trash\\ARTracking.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Arori trash\\ARTracking.cs",
+              "RelativeToolTip": "Assets\\Arori trash\\ARTracking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwA8AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T14:41:56.124Z",
+              "WhenOpened": "2024-07-23T09:15:45.588Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommonPool.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\PoolContainer\\CommonPool.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\PoolContainer\\CommonPool.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\PoolContainer\\CommonPool.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\PoolContainer\\CommonPool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T14:15:32.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CommonContainer.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\PoolContainer\\CommonContainer.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\PoolContainer\\CommonContainer.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\PoolContainer\\CommonContainer.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\PoolContainer\\CommonContainer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T14:15:38.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameConstants.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\GameConstants.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\GameConstants.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\GameConstants.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\GameConstants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T14:08:18.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\Constants.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\Constants.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\Constants.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\Constants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T14:07:17.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HeroCreator.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreator.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreator.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreator.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T13:58:42.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HeroInitializer.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\Heroes\\HeroInitializer.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\Heroes\\HeroInitializer.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\Heroes\\HeroInitializer.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\Heroes\\HeroInitializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T13:58:32.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ARTrackedImageManager.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Library\\PackageCache\\com.unity.xr.arfoundation@5.1.1\\Runtime\\ARFoundation\\ARTrackedImageManager.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.arfoundation@5.1.1\\Runtime\\ARFoundation\\ARTrackedImageManager.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Library\\PackageCache\\com.unity.xr.arfoundation@5.1.1\\Runtime\\ARFoundation\\ARTrackedImageManager.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.arfoundation@5.1.1\\Runtime\\ARFoundation\\ARTrackedImageManager.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T13:53:57.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SpawnObjectOnImage.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\SpawnObjectOnImage.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\SpawnObjectOnImage.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\SpawnObjectOnImage.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\SpawnObjectOnImage.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwDAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T13:43:42.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StateMachine.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
-              "RelativeDocumentMoniker": "Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
-              "RelativeToolTip": "Assets\\Modules\\Systems\\RedDreams\\StateMachine\\StateMachine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T13:24:57.576Z"
             }
           ]
         }

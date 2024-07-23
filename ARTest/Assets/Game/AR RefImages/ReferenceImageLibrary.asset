@@ -18,12 +18,22 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5303851335142139961
-      m_GuidHigh: 9399431205565695360
+      m_GuidLow: 5420137726354670951
+      m_GuidHigh: 4741760707373916075
     m_SerializedTextureGuid:
-      m_GuidLow: 17907714068558756586
-      m_GuidHigh: 12337269917511641883
-    m_Size: {x: 0.1, y: 0.1}
+      m_GuidLow: 12453798850925162157
+      m_GuidHigh: 16902694945070073082
+    m_Size: {x: 0.05, y: 0.07777778}
     m_SpecifySize: 0
-    m_Name: Jokerge
-    m_Texture: {fileID: 2800000, guid: f3b5baeafb10f8841beb64d39fc936ab, type: 3}
+    m_Name: Image1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5241756383636749979
+      m_GuidHigh: 11198158769842705808
+    m_SerializedTextureGuid:
+      m_GuidLow: 172395560074139460
+      m_GuidHigh: 2621828903335506520
+    m_Size: {x: 0.05, y: 0.07777778}
+    m_SpecifySize: 1
+    m_Name: Image2
+    m_Texture: {fileID: 0}

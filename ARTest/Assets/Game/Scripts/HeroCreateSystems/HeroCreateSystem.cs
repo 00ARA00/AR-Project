@@ -19,20 +19,19 @@ namespace Gameplay.Systems.Craetors
 
         private void Awake()
         {
-            trackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
+            //trackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
         }
 
         private void OnDestroy()
         {
-            trackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
+            //trackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
         }
 
         private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
         {
             foreach (var trackedImage in eventArgs.added)
             {
-                Debug.Log(trackedImage.transform.gameObject.name);
-                Debug.Log(trackedImage.referenceImage);
+             
                 _name = trackedImage.referenceImage.ToString();
             }
             /*
@@ -74,10 +73,7 @@ namespace Gameplay.Systems.Craetors
 
         }
 
-        private void OnGUI()
-        {
-            GUI.TextArea(new Rect(10, 10, 400, 200), _name);
-        }
+      
     }
 
 }
