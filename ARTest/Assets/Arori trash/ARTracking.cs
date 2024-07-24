@@ -8,18 +8,17 @@ public class ARTracking : MonoBehaviour
     [SerializeField]
     private ARTrackedImageManager trackedImageManager;
 
+    [SerializeField]
+    private GameObject[] prefabs = new GameObject[2];
+
     private Dictionary<string, GameObject> arObjects = new Dictionary<string, GameObject>();
+
 
     private void Awake()
     {
-        // Добавьте сюда свои AR-объекты
-        arObjects.Add("Image1", GameObject.Find("ARObject1"));
-        arObjects.Add("Image2", GameObject.Find("ARObject2"));
-
-        // Деактивируем все объекты на старте
-        foreach (var arObject in arObjects.Values)
+        foreach (var prefap in prefabs)
         {
-            arObject.SetActive(false);
+            //arObjects.Add(prefap)
         }
     }
 
@@ -38,16 +37,6 @@ public class ARTracking : MonoBehaviour
         foreach (var trackedImage in eventArgs.added)
         {
             UpdateARImage(trackedImage);
-        }
-
-        foreach (var trackedImage in eventArgs.updated)
-        {
-            UpdateARImage(trackedImage);
-        }
-
-        foreach (var trackedImage in eventArgs.removed)
-        {
-            arObjects[trackedImage.referenceImage.name].SetActive(false);
         }
     }
 

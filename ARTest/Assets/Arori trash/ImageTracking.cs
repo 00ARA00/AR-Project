@@ -47,7 +47,10 @@ public class ARMultipleImageTrack : MonoBehaviour
 
         foreach (var trackedImage in eventArgs.removed)
         {
-            arObjects[trackedImage.referenceImage.name].SetActive(false);
+            if (arObjects.ContainsKey(trackedImage.referenceImage.name))
+            {
+                arObjects[trackedImage.referenceImage.name].SetActive(false);
+            }
         }
     }
 
@@ -59,7 +62,15 @@ public class ARMultipleImageTrack : MonoBehaviour
             GameObject arObject = arObjects[imageName];
             arObject.transform.position = trackedImage.transform.position;
             arObject.transform.rotation = trackedImage.transform.rotation;
-            arObject.SetActive(true);
+
+            if (trackedImage.trackingState == TrackingState.Tracking)
+            {
+                arObject.SetActive(true);
+            }
+            else
+            {
+                arObject.SetActive(false);
+            }
         }
     }
 }

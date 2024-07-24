@@ -1,0 +1,1518 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 15712 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\Den\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Den/Documents/GitHub/AR-Project/ARTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49804
+Successfully changed project path to: C:/Users/Den/Documents/GitHub/AR-Project/ARTest
+C:/Users/Den/Documents/GitHub/AR-Project/ARTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3096] Host "[IP] 25.57.29.5 [Port] 0 [Flags] 2 [Guid] 2910836365 [EditorId] 2910836365 [Version] 1048832 [Id] WindowsEditor(7,PCLite) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3096] Host "[IP] 25.57.29.5 [Port] 0 [Flags] 2 [Guid] 2910836365 [EditorId] 2910836365 [Version] 1048832 [Id] WindowsEditor(7,PCLite) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Users/Den/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Den/Documents/GitHub/AR-Project/ARTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.2233
+Initialize mono
+Mono path[0] = 'C:/Users/Den/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Den/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/Den/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Den/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/Den/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Users/Den/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005508 seconds.
+- Loaded All Assemblies, in  0.274 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2125 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.414 seconds
+Domain Reload Profiling: 2687ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2218ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1228ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (146ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (520ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (1.5 MB). Loaded Objects now: 7373.
+Memory consumption went from 261.3 MB to 259.8 MB.
+Total: 4.971400 ms (FindLiveObjects: 0.498500 ms CreateObjectMapping: 0.484200 ms MarkObjects: 3.232400 ms  DeleteObjects: 0.755400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1714.646466 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce47c542f8ab7d441e5d57db9bcbd52d') in 0.017661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StylizedCharacter/ground.physicMaterial
+  artifactKey: Guid(d727d6dfe6ed4e10bc6ffb30c9743394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/ground.physicMaterial using Guid(d727d6dfe6ed4e10bc6ffb30c9743394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d69813b55d70f4d48cf309ad4cd8be') in 0.001042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571301f22fe8ee7cc09690b729b238fe') in 0.001322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(585ae6eb13be34e26b0b5f03b3b6e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(585ae6eb13be34e26b0b5f03b3b6e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af1d86c11937c4aa6935200d9138e81') in 0.000909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debdc34479437229882b6741709124f7') in 0.000795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.499485 seconds.
+  path: Assets/Stylized Character Lich
+  artifactKey: Guid(a45e6adbede801d4380658465e15c5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich using Guid(a45e6adbede801d4380658465e15c5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b50cc6df93dc4cabe4df87cf1f9058') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 145.738829 seconds.
+  path: Assets/Stylized Character Lich/Prefab/PC/Lich_Blood.prefab
+  artifactKey: Guid(2fd22cb28c508f0469dd7fda43db7580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Prefab/PC/Lich_Blood.prefab using Guid(2fd22cb28c508f0469dd7fda43db7580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ac9e997483b0b723dedeabcab5e892') in 0.379160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 170
+========================================================================
+Received Import Request.
+  Time since last request: 59.707374 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets
+  artifactKey: Guid(e75fb124d287474295e007d21349bfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets using Guid(e75fb124d287474295e007d21349bfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a23943575d2a939b6ac41e2bd533b5') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.609488 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Hu_F_Crusader_Or.prefab
+  artifactKey: Guid(d593f5a41422430e8088d19245d08736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Hu_F_Crusader_Or.prefab using Guid(d593f5a41422430e8088d19245d08736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ca0e9af28386b3f5ffe5adbced459c') in 1.001367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4612
+========================================================================
+Received Import Request.
+  Time since last request: 26.533605 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Hu_M_Crusader_Pe.prefab
+  artifactKey: Guid(393342ca04c44ca49e7d5e4f4db0b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Hu_M_Crusader_Pe.prefab using Guid(393342ca04c44ca49e7d5e4f4db0b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e2f41ad1f78ddc3ab4a3b770d54cbc') in 0.810191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4590
+========================================================================
+Received Import Request.
+  Time since last request: 0.240543 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Or_F_Crusader_Or.prefab
+  artifactKey: Guid(3bf530d57e3b52e40937571ed25be04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Or_F_Crusader_Or.prefab using Guid(3bf530d57e3b52e40937571ed25be04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02643c538265a7d783ced0784b6ce17f') in 0.898323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4766
+========================================================================
+Received Import Request.
+  Time since last request: 0.994083 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Hu_M_Crusader_Rd.prefab
+  artifactKey: Guid(19dc5bed4e08477baee9193db34c897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Hu_M_Crusader_Rd.prefab using Guid(19dc5bed4e08477baee9193db34c897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9f04853fcb7498b9ff29b5e8cb461f') in 0.823697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4588
+========================================================================
+Received Import Request.
+  Time since last request: 45.446149 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Hu_M_Crusader_Or.prefab
+  artifactKey: Guid(7f1ebb290bf54a5aaf95ac76605cb333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Hu_M_Crusader_Or.prefab using Guid(7f1ebb290bf54a5aaf95ac76605cb333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b022018e8efc9478829f2f527bc1dc1d') in 0.806456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4594
+========================================================================
+Received Import Request.
+  Time since last request: 9.527298 seconds.
+  path: Assets/StylizedCharacter/Tools
+  artifactKey: Guid(78202bb2f6211d84ca7f802fb17920ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Tools using Guid(78202bb2f6211d84ca7f802fb17920ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8bca199611c08cfb48f3bf5ba7c461') in 0.000848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.749031 seconds.
+  path: Assets/StylizedCharacter/Tools/ConvertMaterialsToURP.cs
+  artifactKey: Guid(b1acc89aa8486f043859218c4141f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Tools/ConvertMaterialsToURP.cs using Guid(b1acc89aa8486f043859218c4141f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68323765ec9aa25503ce3bcd6df7b38d') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.846714 seconds.
+  path: Assets/StylizedCharacter/Scenes
+  artifactKey: Guid(4953bcacd2d1d8c42a95e649d7838a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Scenes using Guid(4953bcacd2d1d8c42a95e649d7838a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ffdf0e5785f9c8870efbbd57c2c8b4') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.532024 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Or_M_Crusader_Rd.prefab
+  artifactKey: Guid(146386120624401a85dc32b65c346746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Or_M_Crusader_Rd.prefab using Guid(146386120624401a85dc32b65c346746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c98f06310badb93b12deb34f6d96c4b') in 0.960297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4844
+========================================================================
+Received Import Request.
+  Time since last request: 13.208804 seconds.
+  path: Assets/StylizedCharacter/Scripts
+  artifactKey: Guid(a7c47edd09d2aea48ba5065f820454f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Scripts using Guid(a7c47edd09d2aea48ba5065f820454f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35a4b6b76e3fd1baaf1baa8b8adf05c') in 0.000967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.088119 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Or_M_Crusader_Or.prefab
+  artifactKey: Guid(dd7a6e46f7de4f268dd5362f06b267b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Or_M_Crusader_Or.prefab using Guid(dd7a6e46f7de4f268dd5362f06b267b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643c4bc2d585ef91749277c0d6d386f8') in 0.944094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4844
+========================================================================
+Received Import Request.
+  Time since last request: 13.805842 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Hu_F_Crusader_Rd.prefab
+  artifactKey: Guid(94c8e6d22f3b446db6e504764fceabab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Hu_F_Crusader_Rd.prefab using Guid(94c8e6d22f3b446db6e504764fceabab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf7ffb72ce94247d9fed6e23d79351e') in 0.729058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4606
+========================================================================
+Received Import Request.
+  Time since last request: 473.326587 seconds.
+  path: Assets/StylizedCharacter/Textures/Character/Human/Male/Head/T_HU_M_Head_Preview.tga
+  artifactKey: Guid(3dbe4e742a254fa98407c2844af69e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Character/Human/Male/Head/T_HU_M_Head_Preview.tga using Guid(3dbe4e742a254fa98407c2844af69e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223d462c4c0dd8d46e6ac5118e59efbc') in 0.044915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 103.604504 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Hu_F_Crusader_Pe.prefab
+  artifactKey: Guid(6f1d3ec4cce4453787691968fc60e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Hu_F_Crusader_Pe.prefab using Guid(6f1d3ec4cce4453787691968fc60e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98d531f76aa93ee3045f384f713e2c2') in 0.970390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4612
+========================================================================
+Received Import Request.
+  Time since last request: 8.936440 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Or_M_Crusader_Pe.prefab
+  artifactKey: Guid(ca5a1817aeb143b494f21c3416f20e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Or_M_Crusader_Pe.prefab using Guid(ca5a1817aeb143b494f21c3416f20e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06995f70c7c4369ca8aa4ef0f6b80c71') in 0.859950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4850
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedCharacter/Prefabs/Presets/Or_F_Crusader_Rd.prefab
+  artifactKey: Guid(5e82be10a022b594bbb1afcfe10b3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Prefabs/Presets/Or_F_Crusader_Rd.prefab using Guid(5e82be10a022b594bbb1afcfe10b3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea90c9bd145e2e63356b9b174a0df9cc') in 0.810476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4772
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/StylizedCharacter/Textures
+  artifactKey: Guid(52bddbfbaa212f942a2b24e8ed1d98d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures using Guid(52bddbfbaa212f942a2b24e8ed1d98d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aec232522dc711f9f627bff4b5ab4d') in 0.000841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.452513 seconds.
+  path: Assets/StylizedCharacter/Textures/Character
+  artifactKey: Guid(e9bf63b62ca342128a45bb54df87a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Character using Guid(e9bf63b62ca342128a45bb54df87a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318a5a889ea33ea9b80b003eaf63e213') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.457429 seconds.
+  path: Assets/StylizedCharacter/Textures/Character/Human/Female
+  artifactKey: Guid(3f86dc7d59084664bbe0545fae75f440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Character/Human/Female using Guid(3f86dc7d59084664bbe0545fae75f440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9de8897a86fd15ab32f634d4791eaa5') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.567225 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/Tutorial/Images/MobileARTemplateImg.png
+  artifactKey: Guid(a8a02a23f7c00ac468d07fb216092823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/Tutorial/Images/MobileARTemplateImg.png using Guid(a8a02a23f7c00ac468d07fb216092823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2365f51fb3e26d545d53b5bad2e9c2') in 0.008419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_Rd_D.tga
+  artifactKey: Guid(adb1c2ea079f4a7da1b33a5a2fb5d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_Rd_D.tga using Guid(adb1c2ea079f4a7da1b33a5a2fb5d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54cc3b204a9e196fc12bf1996c45ffa') in 0.015296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_Or_D.tga
+  artifactKey: Guid(0f1ab2f120794ef2976b9ce069c69312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_Or_D.tga using Guid(0f1ab2f120794ef2976b9ce069c69312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa6c2d0090fe49a2017dd8bc8f74393') in 0.012555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Bottom.png
+  artifactKey: Guid(a818095c8b1764314a4e258bb61fcd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Bottom.png using Guid(a818095c8b1764314a4e258bb61fcd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be5e529ec6eaf1957b365c9638ea59a') in 0.023405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Textures/Character/Human/Male/Body/T_HU_M_Body_Preview.tga
+  artifactKey: Guid(3385f9ec0f144a9fbcdb4189cc6f0ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Character/Human/Male/Body/T_HU_M_Body_Preview.tga using Guid(3385f9ec0f144a9fbcdb4189cc6f0ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1f2b8ec2c7645c7e9695601793c5d2') in 0.049778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_Pe_D.tga
+  artifactKey: Guid(235c698b1b124f63b91427b53da646af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_Pe_D.tga using Guid(235c698b1b124f63b91427b53da646af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00daaad1b93ffb288190c343a29e1b1a') in 0.016120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StylizedCharacter/Textures/Character/Human/Female/Body/T_HU_F_Body_Preview.tga
+  artifactKey: Guid(bfa449c420a74b3c9665257976b4d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Character/Human/Female/Body/T_HU_F_Body_Preview.tga using Guid(bfa449c420a74b3c9665257976b4d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e1953b7c8fe1d45348319e35662725') in 0.049034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_MR.tga
+  artifactKey: Guid(9201f4bc2b888f340a30b7745cd481ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_MR.tga using Guid(9201f4bc2b888f340a30b7745cd481ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da128aeeb94abdb6d400dda46d88f29') in 0.009414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_N.tga
+  artifactKey: Guid(bfb16263691c4819a52e1498ab33fab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Item/Equipment/Belt/T_Belt_Crusader_N.tga using Guid(bfb16263691c4819a52e1498ab33fab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba938af7499c73de95495c1410514b2e') in 0.013152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedCharacter/Textures/Character/Orc/Female/Body/T_OR_F_Body_Preview.tga
+  artifactKey: Guid(68491132a5a44844fac44fec89514903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Character/Orc/Female/Body/T_OR_F_Body_Preview.tga using Guid(68491132a5a44844fac44fec89514903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0ec5cccfbc97c9cb0b726fd9d9bc56') in 0.038389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Textures/Character/Orc/Male/Body/T_OR_M_Body_Preview.tga
+  artifactKey: Guid(0c5cb49a2dd2478baa000e68a0977684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Textures/Character/Orc/Male/Body/T_OR_M_Body_Preview.tga using Guid(0c5cb49a2dd2478baa000e68a0977684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89b8d0accea35bd285ac464e432987f') in 0.036794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Stylized Character Lich/Textures/T_Lich_Diffuse_Blood.tga
+  artifactKey: Guid(bed2ef40ab55e6b4fb1cdcbda5067cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Textures/T_Lich_Diffuse_Blood.tga using Guid(bed2ef40ab55e6b4fb1cdcbda5067cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed40e6b27440f1baeb59f119b5d208d') in 0.050397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Stylized Character Lich/Textures/T_Lich_Emissive_Blood.tga
+  artifactKey: Guid(fbdec0f414eedef40802045effb65125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Textures/T_Lich_Emissive_Blood.tga using Guid(fbdec0f414eedef40802045effb65125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06acbf197daecc76b3173a7deb10d203') in 0.033877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized Character Lich/Textures/T_Lich_Diffuse_IronBlight.tga
+  artifactKey: Guid(a829d60e6c6a10b4aabdc1ae72816313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Textures/T_Lich_Diffuse_IronBlight.tga using Guid(a829d60e6c6a10b4aabdc1ae72816313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c615aa87a4c7a546b4946a45c3be622') in 0.046535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stylized Character Lich/Textures/T_Lich_Emissive_IronBlight.tga
+  artifactKey: Guid(7bcd9c6ee4a64bf45abedd6e1bc12389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Textures/T_Lich_Emissive_IronBlight.tga using Guid(7bcd9c6ee4a64bf45abedd6e1bc12389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b14b4619ec4c1c34e63e0b0632147bc') in 0.035204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.149416 seconds.
+  path: Assets/Modules/Systems/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Systems/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24703a0f84fa42238cae668a39dfe63') in 0.028564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 173.150585 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Pants
+  artifactKey: Guid(f07ab4a0f58e474a97a8c777afc055d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Pants using Guid(f07ab4a0f58e474a97a8c777afc055d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87286be80522f816cd2132c1b3638b6') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.941178 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Set
+  artifactKey: Guid(530056ec21ef499aae706245c0af9a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Set using Guid(530056ec21ef499aae706245c0af9a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbbc11392b96036b73e534cd4019fb9') in 0.000497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 73.297506 seconds.
+  path: Assets/StylizedCharacter/Materials/Character
+  artifactKey: Guid(aa1f84d557bd4eeca2bd01125aae4e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Character using Guid(aa1f84d557bd4eeca2bd01125aae4e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7621b7f49d35d42fd9747363dc6647ac') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.931909 seconds.
+  path: Assets/Stylized Character Lich/Materials/PC/M_Lich_Ghost.mat
+  artifactKey: Guid(d5ec7d5940c0cbe4d8d3c755d75b3ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/PC/M_Lich_Ghost.mat using Guid(d5ec7d5940c0cbe4d8d3c755d75b3ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb00b5b4b2cc87e58571ec486a36fb06') in 0.127472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiver.shadergraph
+  artifactKey: Guid(c395164bee0484f4391b2932dfff0ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiver.shadergraph using Guid(c395164bee0484f4391b2932dfff0ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22eeb410125b250a23b8332828bc02ee') in 0.391469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Green.mat
+  artifactKey: Guid(2a83909e082d4954bae3c63be3c3a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Green.mat using Guid(2a83909e082d4954bae3c63be3c3a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cfb44b89e3de8d165acee35a2d3c06') in 0.116129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/Materials/OcclusionMaterial.mat
+  artifactKey: Guid(b1c0a3539eb5c4008ac8cbe31431cb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/Materials/OcclusionMaterial.mat using Guid(b1c0a3539eb5c4008ac8cbe31431cb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d02528b19e6614a69e593c6442b14b4') in 0.005790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedCharacter/Materials/Character/Orc/Female/Body/M_Or_F_Body_Preview.mat
+  artifactKey: Guid(38f18c4abf7900b42b1ff55e2964506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Character/Orc/Female/Body/M_Or_F_Body_Preview.mat using Guid(38f18c4abf7900b42b1ff55e2964506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30cab09d0a310bb1c63f7f377b0b202') in 0.064871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Weapon/M_Sword_2H_Crusader_Pe.mat
+  artifactKey: Guid(d42c4c231c304d67bc3d0bf4b8682991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Weapon/M_Sword_2H_Crusader_Pe.mat using Guid(d42c4c231c304d67bc3d0bf4b8682991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8767264f65624213fddc22957e1115') in 0.032288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/Materials/ShadowReceiver.mat
+  artifactKey: Guid(e7ccb5d1ec226ea42b48985eb9615de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/Materials/ShadowReceiver.mat using Guid(e7ccb5d1ec226ea42b48985eb9615de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5ffb045a65ee9994d79845f62925cc') in 0.010140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Weapon/M_Sword_2H_Crusader_Rd.mat
+  artifactKey: Guid(aeb33b8b4efe4421b9b4b23db09e5922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Weapon/M_Sword_2H_Crusader_Rd.mat using Guid(aeb33b8b4efe4421b9b4b23db09e5922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1c65247fc9d7c7ba9e0ef373573610') in 0.030249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedCharacter/Materials/Character/Orc/Female/Head/M_Or_F_Head_Preview.mat
+  artifactKey: Guid(788ad304da672914e988a0a8b50010d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Character/Orc/Female/Head/M_Or_F_Head_Preview.mat using Guid(788ad304da672914e988a0a8b50010d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbabce994ee32eab4449e4497bd12e5c') in 0.062903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Shoulder/M_Shoulder_Crusader_Pe.mat
+  artifactKey: Guid(29e9f37e3113420bbe4e11efcc2b9e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Shoulder/M_Shoulder_Crusader_Pe.mat using Guid(29e9f37e3113420bbe4e11efcc2b9e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe7d1df8bec7fcb17bb5f17d87442fc') in 0.102583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stylized Character Lich/Materials/Mobile/M_Lich_IronBlight.mat
+  artifactKey: Guid(de757c636c426d1479fef3431f936fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/Mobile/M_Lich_IronBlight.mat using Guid(de757c636c426d1479fef3431f936fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6417534cfd64b36b150f97005b7942ac') in 0.098135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Set/M_Set_Crusader_Rd.mat
+  artifactKey: Guid(2d29dcbeccdc45e7b523343c0ad3830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Set/M_Set_Crusader_Rd.mat using Guid(2d29dcbeccdc45e7b523343c0ad3830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a794f32313494012bd25dd844c326a') in 0.137263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Stylized Character Lich/Materials/PC/M_Lich_IronBlight.mat
+  artifactKey: Guid(68e7337fa9f6d3447962a38716b44362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/PC/M_Lich_IronBlight.mat using Guid(68e7337fa9f6d3447962a38716b44362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a380517f0571d88c6967464fae539c') in 0.107322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game/Materials/SimulationDefaultTrackedImage.mat
+  artifactKey: Guid(22723a6e47a95934b8c1a028522a5a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/SimulationDefaultTrackedImage.mat using Guid(22723a6e47a95934b8c1a028522a5a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc7eefa2fa9ee05f09787135c284e5f') in 0.015777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/Materials/ObjectMaterial.mat
+  artifactKey: Guid(83eabfe673263a445972586e5d8b56ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/Materials/ObjectMaterial.mat using Guid(83eabfe673263a445972586e5d8b56ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3790d2cb228b5e09ebf6e43f7ff568') in 0.030887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Stylized Character Lich/Materials/PC/M_Lich_Green.mat
+  artifactKey: Guid(54e586ba472e8fc46b2d502480868305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/PC/M_Lich_Green.mat using Guid(54e586ba472e8fc46b2d502480868305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5db4fe93554de174e3daf6af8dbe2b') in 0.109637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Stylized Character Lich/Materials/PC/M_Lich_Purple.mat
+  artifactKey: Guid(dcd3ab1bca5f34341b23fe163e4c6bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/PC/M_Lich_Purple.mat using Guid(dcd3ab1bca5f34341b23fe163e4c6bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd9413bec5c35ebb2212753ad84918c') in 0.104547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Pants/M_Pants_Crusader_U_Pe.mat
+  artifactKey: Guid(30a65ff5768e4a53acb3f0363369c035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Pants/M_Pants_Crusader_U_Pe.mat using Guid(30a65ff5768e4a53acb3f0363369c035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9173ff9a50423e9fe62865f0ce70cc7') in 0.118758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Shoulder/M_Shoulder_Crusader_Rd.mat
+  artifactKey: Guid(870b5ef554734401b163ee0f7c79a438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Shoulder/M_Shoulder_Crusader_Rd.mat using Guid(870b5ef554734401b163ee0f7c79a438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ff52651a9093c53cefc1957eab72e4') in 0.103103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Red.mat
+  artifactKey: Guid(efd71f1597711c343a19ba91b038201a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Red.mat using Guid(efd71f1597711c343a19ba91b038201a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01015ae47f31cbb9f50e603ab8a551c7') in 0.099781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Purple.mat
+  artifactKey: Guid(813e5d983b4c0c64ea66542c373ae1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Purple.mat using Guid(813e5d983b4c0c64ea66542c373ae1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc84e89bf8b6bf1536bc4efe2695f0d') in 0.100200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Set/M_Set_Crusader_Pe.mat
+  artifactKey: Guid(8f6f038890bb4921a41806301aa72ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Set/M_Set_Crusader_Pe.mat using Guid(8f6f038890bb4921a41806301aa72ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edd7fed60cd9e492e70db2bb896f683') in 0.129612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stylized Character Lich/Materials/PC/M_Lich_Red.mat
+  artifactKey: Guid(b4545df641c08aa428dcc87f8c8c404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/PC/M_Lich_Red.mat using Guid(b4545df641c08aa428dcc87f8c8c404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180ba6c39c19a04f60c5433211340fd9') in 0.107609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Pants/M_Pants_Crusader_U_Rd.mat
+  artifactKey: Guid(bbcd7b94028a43a09139df82a49dd6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Pants/M_Pants_Crusader_U_Rd.mat using Guid(bbcd7b94028a43a09139df82a49dd6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a7da353fef3fc8e5b94288fe92325a') in 0.112178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 76.156345 seconds.
+  path: Assets/StylizedCharacter/Materials/Character/Human/Female/Body/M_HU_F_Body_Preview.mat
+  artifactKey: Guid(0f851ac353c3433eaf5320b4bdc89dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Character/Human/Female/Body/M_HU_F_Body_Preview.mat using Guid(0f851ac353c3433eaf5320b4bdc89dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9e979b21e8abd90819c1d178bd7bab') in 0.039004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Ghost.mat
+  artifactKey: Guid(e6e1103e6aea6bd49b08e5944ff5efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Ghost.mat using Guid(e6e1103e6aea6bd49b08e5944ff5efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22737de35583fc2790a6bbf593907bf0') in 0.098305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Chest/M_Chest_Crusader_U_Pe.mat
+  artifactKey: Guid(ade92224db80425dbde94bc7dfa3197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Chest/M_Chest_Crusader_U_Pe.mat using Guid(ade92224db80425dbde94bc7dfa3197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c12d20fca8bca5a8bfd41cffcd75780') in 0.115573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Blood.mat
+  artifactKey: Guid(5a38872adf7a2544d9848324136be1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/Mobile/M_Lich_Blood.mat using Guid(5a38872adf7a2544d9848324136be1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0791a313eea8b7047fc9a857888a8ce4') in 0.099100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedCharacter/Materials/Item/Equipment/Chest/M_Chest_Crusader_U_Rd.mat
+  artifactKey: Guid(1c0103432d744eeda908d3207235fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Item/Equipment/Chest/M_Chest_Crusader_U_Rd.mat using Guid(1c0103432d744eeda908d3207235fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02176f1b154a5ed92d30568be398bf39') in 0.118316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modules/Systems/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Systems/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b97cf291dd4ddaf3a294f438c366a91') in 0.054543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/ARDemoSceneAssets/Materials/InteractableMat.mat
+  artifactKey: Guid(405529b091e884f32ad1cdb05c634ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/ARDemoSceneAssets/Materials/InteractableMat.mat using Guid(405529b091e884f32ad1cdb05c634ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ba1ea6944db38047184ba8e709e847') in 0.027826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Overlay_Material.mat
+  artifactKey: Guid(4901b33f2905d42b986e9dce9a67d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Overlay_Material.mat using Guid(4901b33f2905d42b986e9dce9a67d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382b3953e5f39a1aabc8749ae93a5666') in 0.047954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modules/Systems/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Systems/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55282388bed1a6a5f0d4eea5a88028d1') in 0.056942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/Shaders/InteractablePrimitive.shadergraph
+  artifactKey: Guid(37c51f8d6a7e5674aab5ed399eaf0cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/Shaders/InteractablePrimitive.shadergraph using Guid(37c51f8d6a7e5674aab5ed399eaf0cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c470112d25b848bf7d590a613f99a57b') in 0.007928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modules/AR/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Underlay.mat
+  artifactKey: Guid(9df90d896a1f14b39a85af1c83541d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/MobileARTemplateAssets/UI/Fonts/Inter-Regular_SDF_Underlay.mat using Guid(9df90d896a1f14b39a85af1c83541d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75faa3fc6c2e5114606b7081e71f7552') in 0.055026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Materials/FeatheredPlaneMaterial.mat
+  artifactKey: Guid(d5774351bc3ae4ad393dc1d142ff4235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/AR/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Materials/FeatheredPlaneMaterial.mat using Guid(d5774351bc3ae4ad393dc1d142ff4235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334b777799ff49162479607088d22058') in 0.028357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Character Lich/Materials/PC/M_Lich_Blood.mat
+  artifactKey: Guid(ba46f5e4d7a1f724faf52386aa2b4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Character Lich/Materials/PC/M_Lich_Blood.mat using Guid(ba46f5e4d7a1f724faf52386aa2b4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebd5433d4016f48056ae4f92a5edd51') in 0.105791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedCharacter/Materials/Character/Human/Female/Head/M_HU_F_Head_Preview.mat
+  artifactKey: Guid(bc34b8235c1943538bd60a18709f55f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Materials/Character/Human/Female/Head/M_HU_F_Head_Preview.mat using Guid(bc34b8235c1943538bd60a18709f55f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914da3ef0351725fb9ac1a3cb75245d1') in 0.046425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 17.350345 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Male/SK_Hu_M_FullBody.fbx
+  artifactKey: Guid(b8e1729aa66c4542b0dfb77c151371ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Male/SK_Hu_M_FullBody.fbx using Guid(b8e1729aa66c4542b0dfb77c151371ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fca478250d7c639d4c897f87c02f1e0') in 0.186319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 387
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Head_Ears.fbx
+  artifactKey: Guid(cfd4966abe9f4662bc0f6a1cab6fd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Head_Ears.fbx using Guid(cfd4966abe9f4662bc0f6a1cab6fd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff686207923b93ee2e9870c82d23f77a') in 0.060456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 351
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Head.fbx
+  artifactKey: Guid(01d34fc1c44a4882a53e6a050359b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Head.fbx using Guid(01d34fc1c44a4882a53e6a050359b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f55bad29058e8aa8a49e57bc3517b0b') in 0.083020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Head.fbx
+  artifactKey: Guid(15f12c63e05a4add8358348a25f791bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Head.fbx using Guid(15f12c63e05a4add8358348a25f791bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4c02cef783e618028cdd2102ef2086') in 0.080474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Head.fbx
+  artifactKey: Guid(ce725c0539264c6a9038178e978cb325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Head.fbx using Guid(ce725c0539264c6a9038178e978cb325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed30c23ce47c25e1b3f66861d8a9ab49') in 0.050676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 355
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Head.fbx
+  artifactKey: Guid(0d405435511b42848a14c29d9dbe1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Head.fbx using Guid(0d405435511b42848a14c29d9dbe1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b423cd9fd3deddadcd5c2a8bd969b33') in 0.086003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 372
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Hands.fbx
+  artifactKey: Guid(2e6270635a5b4b15a1bfff77412d1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Hands.fbx using Guid(2e6270635a5b4b15a1bfff77412d1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554da227bb2523fc19dd06b65d883e4') in 0.074543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Hu_M_Boots_Crusader.fbx
+  artifactKey: Guid(8a4a9b5d9b204983a322bee7816b4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Hu_M_Boots_Crusader.fbx using Guid(8a4a9b5d9b204983a322bee7816b4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a142490a34b499ecf6fba362862714f7') in 0.167283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Boots.fbx
+  artifactKey: Guid(92c9312298d44717a3df1b8a4793ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Boots.fbx using Guid(92c9312298d44717a3df1b8a4793ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fe82e377b0eaa9bf078146bb70da06') in 0.046856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Bracers.fbx
+  artifactKey: Guid(207a4b9a1ddf4c03ad2d7817bcc8114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Bracers.fbx using Guid(207a4b9a1ddf4c03ad2d7817bcc8114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7764aa7d77e420b2af0d96d0881074') in 0.047226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Bracers.fbx
+  artifactKey: Guid(9e2668a8b4b19e34aa5dff14681769ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Bracers.fbx using Guid(9e2668a8b4b19e34aa5dff14681769ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea3fdaee5f7e9f3e623ba75235978aa') in 0.074675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 362
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Hu_F_Belt_Crusader.fbx
+  artifactKey: Guid(ba614ac8bf3247a38481361201ee0429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Hu_F_Belt_Crusader.fbx using Guid(ba614ac8bf3247a38481361201ee0429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f758beaa003e6b9e9e6db73f8b503f0') in 0.025758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 351
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/HandsAdd/SK_Hu_M_HandsAdd_Crusader.fbx
+  artifactKey: Guid(23edb427f8a243a8a6934358470a924b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/HandsAdd/SK_Hu_M_HandsAdd_Crusader.fbx using Guid(23edb427f8a243a8a6934358470a924b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81eb409ab481a84be668241358554c4') in 0.122252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Or_F_Bracers_Crusader.fbx
+  artifactKey: Guid(0411fb6cd161c5c4583c47c85c018be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Or_F_Bracers_Crusader.fbx using Guid(0411fb6cd161c5c4583c47c85c018be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583eddd31a4e3dd8671f3509b4ff989d') in 0.067768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 364
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Hu_F_Cape_Crusader_02.fbx
+  artifactKey: Guid(5d564e7c9c02467a8d65c2b2b1dfdd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Hu_F_Cape_Crusader_02.fbx using Guid(5d564e7c9c02467a8d65c2b2b1dfdd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd672907622cac5e6b6a7ccc95fa92ecb') in 0.042536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 352
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Female/SK_Or_F_FullBody.fbx
+  artifactKey: Guid(85c6820557ae9624c8f36c1bebd6e4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Female/SK_Or_F_FullBody.fbx using Guid(85c6820557ae9624c8f36c1bebd6e4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632dcc8f6a940f52a86c85550402283e') in 0.141806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 413
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Or_F_Cape_Crusader.fbx
+  artifactKey: Guid(179f077a99aaccc4991efd9f88660eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Or_F_Cape_Crusader.fbx using Guid(179f077a99aaccc4991efd9f88660eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c2dcca79b4108635707a0a12b29a39') in 0.251020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 367
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Hu_M_Bracers_Crusader.fbx
+  artifactKey: Guid(86c42b6b7af345a89cb47cf82a09fe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Hu_M_Bracers_Crusader.fbx using Guid(86c42b6b7af345a89cb47cf82a09fe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ac35d5187dc80727f71947dda36cf2') in 0.047095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/HandsAdd/SK_Or_F_HandsAdd_Crusader.fbx
+  artifactKey: Guid(159e0d14110242f4c8a72a099961d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/HandsAdd/SK_Or_F_HandsAdd_Crusader.fbx using Guid(159e0d14110242f4c8a72a099961d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f4bf0af8555a0f3cd5898069ff7982') in 0.133560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 363
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Hu_F_Cape_Crusader.fbx
+  artifactKey: Guid(8e3f50565d334ac990622c3f3751fd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Hu_F_Cape_Crusader.fbx using Guid(8e3f50565d334ac990622c3f3751fd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f2e82ae8579b27336fed58a08e87ee') in 0.245696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 356
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Or_F_Belt_Crusader.fbx
+  artifactKey: Guid(16d57901692666e419d0f4816e508c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Or_F_Belt_Crusader.fbx using Guid(16d57901692666e419d0f4816e508c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144e6cc6875540e46a54c5e506cc24d4') in 0.025003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 363
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Hands.fbx
+  artifactKey: Guid(a8f361cd70054a7fa6b6e7a9f4aa59b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Hands.fbx using Guid(a8f361cd70054a7fa6b6e7a9f4aa59b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff6c0f70c4bdba941125b8012ddeee3') in 0.046501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Or_M_Cape_Crusader.fbx
+  artifactKey: Guid(67fd9b128fc84985b95b2f47011404b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Or_M_Cape_Crusader.fbx using Guid(67fd9b128fc84985b95b2f47011404b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3895dcd181257eadca5cbd851eabf6ef') in 0.222647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 373
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Feet.fbx
+  artifactKey: Guid(c13b19371e2e4c7b876028401803ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Feet.fbx using Guid(c13b19371e2e4c7b876028401803ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23aed0f1a477886b473b4ca563b10ce4') in 0.041064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Boots.fbx
+  artifactKey: Guid(15734b688ebe4ecaae698eabb58eece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Boots.fbx using Guid(15734b688ebe4ecaae698eabb58eece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bdaa05d3b0bb7964567b6dc4d18f30') in 0.043352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Head_Ears.fbx
+  artifactKey: Guid(8b57146420664e0aab653ad6969490ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Head_Ears.fbx using Guid(8b57146420664e0aab653ad6969490ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428f2425c5c791e5d32748696834b792') in 0.057319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 351
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Boots.fbx
+  artifactKey: Guid(dd1e01985fd679043853c2a18ab125ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Boots.fbx using Guid(dd1e01985fd679043853c2a18ab125ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0578b3d7ff67c0265323413f7786fcb0') in 0.072151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 362
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Hands.fbx
+  artifactKey: Guid(f1c19a1681c803f45a07d80c442c5f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Hands.fbx using Guid(f1c19a1681c803f45a07d80c442c5f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d7a68175357b74a443bc8e1ce329d4') in 0.069668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 362
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Hands.fbx
+  artifactKey: Guid(cd38f22fb29e422aaf89ec1c748dd3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Hands.fbx using Guid(cd38f22fb29e422aaf89ec1c748dd3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9d8bf1efe86dcd2e4a03b42cb3bece') in 0.046093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Hu_F_Bracers_Crusader.fbx
+  artifactKey: Guid(b061dce10fb5449db566709c73e2c266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Hu_F_Bracers_Crusader.fbx using Guid(b061dce10fb5449db566709c73e2c266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beb5ddca5662697af700cee8a1375e9') in 0.043155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 352
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Head_Ears.fbx
+  artifactKey: Guid(174e85332bc55ba479657d3b03b4476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Head_Ears.fbx using Guid(174e85332bc55ba479657d3b03b4476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce6ef845cfe282bbc93bc2460234a00') in 0.070202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 364
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Feet.fbx
+  artifactKey: Guid(9ab37d649f284677864c368e1e10350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Male/Base/SK_Hu_M_Feet.fbx using Guid(9ab37d649f284677864c368e1e10350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd028c537d2a202a63e7fa7bcdc036cb') in 0.042239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/HandsAdd/SK_Or_M_HandsAdd_Crusader.fbx
+  artifactKey: Guid(06958e7deb0749368b9204f450a5a237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/HandsAdd/SK_Or_M_HandsAdd_Crusader.fbx using Guid(06958e7deb0749368b9204f450a5a237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31661a01383f628d6552277ffdda185a') in 0.117596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Or_M_Boots_Crusader.fbx
+  artifactKey: Guid(1e5ba58004d34f9cb8c547b5c721c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Or_M_Boots_Crusader.fbx using Guid(1e5ba58004d34f9cb8c547b5c721c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e77175e0defc794f1cf49dda916505') in 0.176988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 378
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Hu_M_BracersAdd_Crusader.fbx
+  artifactKey: Guid(f4456143aaee44619e049d0ac0666124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Hu_M_BracersAdd_Crusader.fbx using Guid(f4456143aaee44619e049d0ac0666124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e7039baffa0d8d1533a3b23409a03b') in 0.123729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Feet.fbx
+  artifactKey: Guid(2e9807007f6a43ffa9c20c69bc64ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Feet.fbx using Guid(2e9807007f6a43ffa9c20c69bc64ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fedb709b5e7cf68b2aca7040a949ad5') in 0.067987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Head_Ears.fbx
+  artifactKey: Guid(5c05f0de0f844de295b1fe1ccd15456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Head_Ears.fbx using Guid(5c05f0de0f844de295b1fe1ccd15456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a7c552c2ee06471471711fb2a01cde') in 0.071084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 372
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Hu_F_BracersAdd_Crusader.fbx
+  artifactKey: Guid(43dd05db7e384a4899474275c97e4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Hu_F_BracersAdd_Crusader.fbx using Guid(43dd05db7e384a4899474275c97e4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89796427c6bdaae18d8148577ab3bb32') in 0.122579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 352
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Or_M_Bracers_Crusader.fbx
+  artifactKey: Guid(ba3f115960254b0987e0dbc9b7ddbb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Bracers/SK_Or_M_Bracers_Crusader.fbx using Guid(ba3f115960254b0987e0dbc9b7ddbb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bd3401abd17f11e311b4c26ecd7d55') in 0.068811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Feet.fbx
+  artifactKey: Guid(30a6631256566f549bf316640929b3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Female/Base/SK_Or_F_Feet.fbx using Guid(30a6631256566f549bf316640929b3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1aadab94b66cd85c3be930d9ad833f') in 0.069523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 362
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Hu_M_Cape_Crusader.fbx
+  artifactKey: Guid(559b08df06cd444eb3c9bb9e33ac8752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Hu_M_Cape_Crusader.fbx using Guid(559b08df06cd444eb3c9bb9e33ac8752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc56e0c6169c8e01d7c8aa7f1d47254e') in 0.238381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 355
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Or_M_BracersAdd_Crusader.fbx
+  artifactKey: Guid(06429742eac542bc95dc4b7ad852ec55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Or_M_BracersAdd_Crusader.fbx using Guid(06429742eac542bc95dc4b7ad852ec55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a7fb4a8435fab8e60be6d02d7e40fd') in 0.119818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Or_F_Boots_Crusader.fbx
+  artifactKey: Guid(12dcdd91dbba263458621565079b0b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Or_F_Boots_Crusader.fbx using Guid(12dcdd91dbba263458621565079b0b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19118b389888d0815d31c7e36ff954f') in 0.193921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 372
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Hu_M_Belt_Crusader.fbx
+  artifactKey: Guid(bc1a67b423834631b6490754b91ffb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Hu_M_Belt_Crusader.fbx using Guid(bc1a67b423834631b6490754b91ffb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0532575b0eaccb10bd569e3a7b8e8c2') in 0.021923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Hu_F_Boots_Crusader.fbx
+  artifactKey: Guid(2babb9a885334626a3a956e1a01ee82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Boots/SK_Hu_F_Boots_Crusader.fbx using Guid(2babb9a885334626a3a956e1a01ee82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a95456c7e5750e96fc5ed0614e268b1') in 0.165013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 360
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Bracers.fbx
+  artifactKey: Guid(ba27d7d416c74048907bbc325be0153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Female/Base/SK_Hu_F_Bracers.fbx using Guid(ba27d7d416c74048907bbc325be0153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db121e4cd9d5190eccd84e903f68cedc') in 0.043633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Or_M_Belt_Crusader.fbx
+  artifactKey: Guid(989e02d5c7de41ddabb0f659e552b59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Belt/SK_Or_M_Belt_Crusader.fbx using Guid(989e02d5c7de41ddabb0f659e552b59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fd000ff82321bc939b658c99edc48f') in 0.022893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Human/Female/SK_Hu_F_FullBody.fbx
+  artifactKey: Guid(da1332e915e84cb691bc1ad994e4ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Human/Female/SK_Hu_F_FullBody.fbx using Guid(da1332e915e84cb691bc1ad994e4ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07eab4e7e0bf3468973e463299440bf') in 0.125493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 391
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Male/SK_Or_M_FullBody.fbx
+  artifactKey: Guid(e74a03ff3d7249119ba3ba1ad37b5390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Male/SK_Or_M_FullBody.fbx using Guid(e74a03ff3d7249119ba3ba1ad37b5390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886e97d93a5fde7a59f65261e2aead5c') in 0.169117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 417
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Or_F_Cape_Crusader_02.fbx
+  artifactKey: Guid(82e384547dd2a874bbadacb5d9cc7afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/Cape/SK_Or_F_Cape_Crusader_02.fbx using Guid(82e384547dd2a874bbadacb5d9cc7afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556799114f54cec10f67ec6c267a3e47') in 0.050153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 363
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Boots.fbx
+  artifactKey: Guid(a4fb7673d65a41a9a6496eeb9ca82ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Boots.fbx using Guid(a4fb7673d65a41a9a6496eeb9ca82ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1e74fa1217dcb0faa63f1ff938c6a9') in 0.073223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Or_F_BracersAdd_Crusader.fbx
+  artifactKey: Guid(dda6f92c2f1c93e49ab307bb92e07c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Item/Equipment/BracersAdd/SK_Or_F_BracersAdd_Crusader.fbx using Guid(dda6f92c2f1c93e49ab307bb92e07c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23de9444f03ff00d336f1af1a9f3043b') in 0.127202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 363
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Bracers.fbx
+  artifactKey: Guid(25579ec69b644c7a9257d84edb62fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedCharacter/Meshes/Character/Orc/Male/Base/SK_Or_M_Bracers.fbx using Guid(25579ec69b644c7a9257d84edb62fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b33a357ce2fb53faa972fb64b9bea30') in 0.074673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 168.979386 seconds.
+  path: Assets/Arori trash/Image4.png
+  artifactKey: Guid(658feeadc812acd4fa44b18b7f6f92ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arori trash/Image4.png using Guid(658feeadc812acd4fa44b18b7f6f92ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db45f5f7292c70076eac86db917458a') in 0.033795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.902586 seconds.
+  path: Assets/Arori trash/Image5.png
+  artifactKey: Guid(3712d74478d9026458322a1d7f9b6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arori trash/Image5.png using Guid(3712d74478d9026458322a1d7f9b6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4960464de489ec09128063085ea44fd3') in 0.020935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.880585 seconds.
+  path: Assets/Game/AR RefImages/ReferenceImageLibrary.asset
+  artifactKey: Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/AR RefImages/ReferenceImageLibrary.asset using Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8263f7001cc471e27f1c1f06d2d5ca03') in 0.052301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.688327 seconds.
+  path: Assets/Arori trash/Image1.png
+  artifactKey: Guid(658feeadc812acd4fa44b18b7f6f92ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arori trash/Image1.png using Guid(658feeadc812acd4fa44b18b7f6f92ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbdf56fb5188201ff4606e4a8ef3956') in 0.017780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.513098 seconds.
+  path: Assets/Arori trash/Image2.png
+  artifactKey: Guid(3712d74478d9026458322a1d7f9b6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arori trash/Image2.png using Guid(3712d74478d9026458322a1d7f9b6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8b21f6043b3fe492c7dbb1e5617f3c') in 0.017965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002460 seconds.
+  path: Assets/Arori trash/ImageTracking.cs
+  artifactKey: Guid(9c2e756543bc39f4794d129ae5b39739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arori trash/ImageTracking.cs using Guid(9c2e756543bc39f4794d129ae5b39739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca4f136ec475a02d3d2c6684e01b9f5') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (1.5 MB). Loaded Objects now: 7516.
+Memory consumption went from 161.3 MB to 159.8 MB.
+Total: 19.315700 ms (FindLiveObjects: 11.280800 ms CreateObjectMapping: 0.898800 ms MarkObjects: 6.201400 ms  DeleteObjects: 0.933800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1169.616426 seconds.
+  path: Assets/Game/AR RefImages/ReferenceImageLibrary.asset
+  artifactKey: Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/AR RefImages/ReferenceImageLibrary.asset using Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8615e7309b28fdeae319c7225fbf45bd') in 0.048548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (1.5 MB). Loaded Objects now: 7516.
+Memory consumption went from 183.6 MB to 182.1 MB.
+Total: 5.883200 ms (FindLiveObjects: 0.490200 ms CreateObjectMapping: 0.775500 ms MarkObjects: 3.849600 ms  DeleteObjects: 0.767400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 153.895737 seconds.
+  path: Assets/Game/AR RefImages/ReferenceImageLibrary.asset
+  artifactKey: Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/AR RefImages/ReferenceImageLibrary.asset using Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d73da3e4b58aa714fd096d18b7cb77') in 0.054258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (1.5 MB). Loaded Objects now: 7516.
+Memory consumption went from 206.0 MB to 204.5 MB.
+Total: 5.014800 ms (FindLiveObjects: 0.461400 ms CreateObjectMapping: 0.187000 ms MarkObjects: 3.660600 ms  DeleteObjects: 0.705200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82.495234 seconds.
+  path: Assets/Game/AR RefImages/ReferenceImageLibrary.asset
+  artifactKey: Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/AR RefImages/ReferenceImageLibrary.asset using Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd281ec3a323e5178d714f323c9d428ea') in 0.047429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (1.5 MB). Loaded Objects now: 7516.
+Memory consumption went from 228.6 MB to 227.0 MB.
+Total: 5.574700 ms (FindLiveObjects: 0.478900 ms CreateObjectMapping: 0.421100 ms MarkObjects: 3.868400 ms  DeleteObjects: 0.805500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 172.633526 seconds.
+  path: Assets/Game/AR RefImages/ReferenceImageLibrary.asset
+  artifactKey: Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/AR RefImages/ReferenceImageLibrary.asset using Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737ee9017ac8040a2afd37c3588a83c5') in 0.049156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (1.6 MB). Loaded Objects now: 7516.
+Memory consumption went from 251.1 MB to 249.6 MB.
+Total: 5.606000 ms (FindLiveObjects: 0.520100 ms CreateObjectMapping: 0.421200 ms MarkObjects: 3.858000 ms  DeleteObjects: 0.805900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.433569 seconds.
+  path: Assets/Game/AR RefImages/ReferenceImageLibrary.asset
+  artifactKey: Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/AR RefImages/ReferenceImageLibrary.asset using Guid(68fca2985c359ca4da2868164fc5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebed4df40564f179b2314c4c2c61abc') in 0.050299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (1.5 MB). Loaded Objects now: 7516.
+Memory consumption went from 273.6 MB to 272.1 MB.
+Total: 5.223300 ms (FindLiveObjects: 0.487600 ms CreateObjectMapping: 0.191100 ms MarkObjects: 3.794700 ms  DeleteObjects: 0.749200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
