@@ -17,7 +17,7 @@ public class Visualizer : MonoBehaviour
     void Start()
     {
         arena.SetActive(false);
-        planeMarkerPrefab.SetActive(false);
+        //planeMarkerPrefab.SetActive(false);
         button.onClick.AddListener(SpawnObject);
     }
 
@@ -25,7 +25,7 @@ public class Visualizer : MonoBehaviour
     {
         if (imageTracking.tracked)
         {
-            ShowMarker();
+            //ShowMarker();
         }
     }
 
