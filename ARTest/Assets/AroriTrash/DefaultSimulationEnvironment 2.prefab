@@ -834,6 +834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Simulated Tracked Image
       objectReference: {fileID: 0}
+    - target: {fileID: 1437737941105744471, guid: 3b85a5c6269e2c646ba917582da30d37,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4886165804247962881, guid: 3b85a5c6269e2c646ba917582da30d37,
         type: 3}
       propertyPath: m_Image

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: ReferenceImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 0
-  m_GuidHigh: 0
+  m_GuidLow: 5248557228566270817
+  m_GuidHigh: 7081867522321966524
   m_DataStore:
     m_Storage: []
   m_Images:
@@ -26,7 +26,7 @@ MonoBehaviour:
     m_Size: {x: 0.06, y: 0.093333334}
     m_SpecifySize: 1
     m_Name: Lich_Blood
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: efadeb558a4f55549b502813f963b462, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4972780236727398535
       m_GuidHigh: 10253639267235300024
@@ -35,5 +35,5 @@ MonoBehaviour:
       m_GuidHigh: 12459280460549897994
     m_Size: {x: 0.06, y: 0.093333334}
     m_SpecifySize: 1
-    m_Name: Hu_M_Crusader_Pe
-    m_Texture: {fileID: 0}
+    m_Name: Crusader
+    m_Texture: {fileID: 2800000, guid: 0a45f3ef2d2bfa540abf0a189141e8ac, type: 3}
