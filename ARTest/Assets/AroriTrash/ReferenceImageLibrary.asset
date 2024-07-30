@@ -35,5 +35,5 @@ MonoBehaviour:
       m_GuidHigh: 12459280460549897994
     m_Size: {x: 0.06, y: 0.093333334}
     m_SpecifySize: 1
-    m_Name: Crusader
+    m_Name: Hu_M_Crusader_Pe
     m_Texture: {fileID: 2800000, guid: 0a45f3ef2d2bfa540abf0a189141e8ac, type: 3}

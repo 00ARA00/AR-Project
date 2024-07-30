@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Unity Projects\\AR-Project\\ARTest\\",
+  "WorkspaceRootPath": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Unity Projects\\AR-Project\\ARTest\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\aroritrash\\imagetrackingsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\imagetrackingsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\aroritrash\\arimagetracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\arimagetracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|c:\\users\\den\\documents\\github\\ar-project\\artest\\assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|F:\\Unity Projects\\AR-Project\\ARTest\\assets\\aroritrash\\touchtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\touchtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|c:\\users\\den\\documents\\github\\ar-project\\artest\\assets\\aroritrash\\animationcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\animationcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UniversalRenderPipeline.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Runtime\\UniversalRenderPipeline.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Runtime\\UniversalRenderPipeline.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Runtime\\UniversalRenderPipeline.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Runtime\\UniversalRenderPipeline.cs",
-              "ViewState": "AQIAAGUCAAAAAAAAAAAiwHwCAAAGAAAA",
+              "DocumentIndex": 2,
+              "Title": "AnimationControll.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AnimationControll.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriTrash\\AnimationControll.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AnimationControll.cs",
+              "RelativeToolTip": "Assets\\AroriTrash\\AnimationControll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T19:19:56.93Z",
+              "WhenOpened": "2024-07-30T15:15:47.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Visualizer.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriTrash\\Visualizer.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
+              "RelativeToolTip": "Assets\\AroriTrash\\Visualizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T15:06:53.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ImageTrackingSetup.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\ImageTrackingSetup.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\ImageTrackingSetup.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\ImageTrackingSetup.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\ImageTrackingSetup.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Title": "HeroCreateSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
+              "RelativeToolTip": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEsAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T15:55:36.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TouchTest.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\TouchTest.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\TouchTest.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\TouchTest.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\TouchTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T07:31:00.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Visualizer.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\Visualizer.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\Visualizer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T15:06:53.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ARImageTracking.cs",
-              "DocumentMoniker": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\ARImageTracking.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\ARImageTracking.cs",
-              "ToolTip": "F:\\Unity Projects\\AR-Project\\ARTest\\Assets\\AroriTrash\\ARImageTracking.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\ARImageTracking.cs",
-              "ViewState": "AQIAACkAAAAA0szMzEwewDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T12:38:20.288Z"
+              "WhenOpened": "2024-07-30T07:48:21.76Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,25 +1,54 @@
 ﻿using Game.ScrObj;
 using PoolsContainer;
 using PoolsContainer.Example;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
-namespace Gameplay.Systems.Craetors
+namespace Gameplay.Systems.Creators
 {
     public class HeroCreateSystem : MonoBehaviour
     {
         [Header("Links")]
-        [SerializeField] private HeroesPrefabsPackScrObj heroesPrefabsPackScrObj;
-        [Space]
-        [SerializeField] private HeroesPool heroesPool;
-        [SerializeField] private HeroesContainer heroesContainer;
         [SerializeField] private ARTrackedImageManager trackedImagesManager;
 
-        private string _name;
+        [SerializeField] public Text text;
+
+        [SerializeField] private List<GameObject> arObjectPrefabs;
+
+        [SerializeField] private Transform firstCharacterTransform;
+
+        [SerializeField] private Transform secondCharacterTransform;
+
+        [NonSerialized] private GameObject firstCharacter;
+
+        [NonSerialized] private GameObject secondCharacter;
+
+        [NonSerialized] public Animator firstCharacterController;
+        [NonSerialized] public Animator secondCharacterController;
+
+        private Dictionary<string, GameObject> arObjects = new Dictionary<string, GameObject>();
+
+        public bool tracked = false;
+
+        private string firstImageName;
+
+        private string secondImageName;
+
 
         private void Awake()
         {
             trackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
+
+            text.text = "Please track first image.";
+            Debug.Log("asd");
+            foreach (var prefab in arObjectPrefabs)
+            {
+                arObjects.Add(prefab.name, prefab);
+            }
+
         }
 
         private void OnDestroy()
@@ -29,53 +58,27 @@ namespace Gameplay.Systems.Craetors
 
         private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
         {
-            
-            foreach (var trackedImage in trackedImagesManager.trackables)
+            foreach (var trackedImage in eventArgs.added)
             {
-                Debug.Log(trackedImage.referenceImage.ToString());
-                Debug.Log(trackedImagesManager.trackedImagePrefab.ToString());
-                _name = trackedImage.referenceImage.ToString();
-            }
-            /*
-            foreach (var trackedImage in eventArgs.updated)
-            {
-                trackedImage.
-                var imageName = trackedImage.referenceImage.name;
-                foreach (var curPrefab in ArPrefabs)
+                if (firstImageName == null)
                 {
-                    if (imageName == curPrefab.name)
-                    {
-                        var newPrefab = Instantiate(curPrefab, trackedImage.transform);
-                        _instantiatedPrefabs[imageName] = newPrefab;
-                    }
+                    firstImageName = trackedImage.referenceImage.name;
+                    firstCharacter = Instantiate(arObjects[firstImageName], firstCharacterTransform.position, firstCharacterTransform.rotation);
+                    firstCharacter.transform.parent = firstCharacterTransform;
+                    firstCharacterController = firstCharacter.GetComponent<Animator>();
+                    text.text = "Please track second image.";
                 }
-                
+                if (firstImageName != null && trackedImage.referenceImage.name != firstImageName)
+                {
+                    secondImageName = trackedImage.referenceImage.name;
+                    secondCharacter = Instantiate(arObjects[secondImageName], secondCharacterTransform.position, secondCharacterTransform.rotation);
+                    secondCharacter.transform.parent = secondCharacterTransform;
+                    secondCharacterController = secondCharacter.GetComponent<Animator>();
+                    text.text = "Images tracked.";
+                    tracked = true;
+                }
             }
-
-            foreach (var trackedImage in eventArgs.updated)
-            {
-                _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
-            }
-
-            foreach (var trackedImage in eventArgs.removed)
-            {
-                Destroy(_instantiatedPrefabs[trackedImage.referenceImage.name]);
-                _instantiatedPrefabs.Remove(trackedImage.referenceImage.name);
-            }
-            */
         }
-
-        private void CreateHero()
-        {
-
-        }
-
-        private void DeleteHero()
-        {
-
-        }
-
-      
     }
 
 }
