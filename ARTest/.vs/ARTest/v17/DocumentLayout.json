@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|c:\\users\\den\\documents\\github\\ar-project\\artest\\assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|c:\\users\\den\\documents\\github\\ar-project\\artest\\assets\\aroritrash\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\attackanimationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\attackanimationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|c:\\users\\den\\documents\\github\\ar-project\\artest\\assets\\aroritrash\\animationcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\animationcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnimationControll.cs",
-              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AnimationControll.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\AnimationControll.cs",
-              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AnimationControll.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\AnimationControll.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "DocumentIndex": 1,
+              "Title": "Attack.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Attack.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriTrash\\Attack.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Attack.cs",
+              "RelativeToolTip": "Assets\\AroriTrash\\Attack.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T15:15:47.85Z",
+              "WhenOpened": "2024-07-31T11:35:35.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttackAnimationEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AttackAnimationEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriTrash\\AttackAnimationEvent.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AttackAnimationEvent.cs",
+              "RelativeToolTip": "Assets\\AroriTrash\\AttackAnimationEvent.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:24:21.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Billboard.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Billboard.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriTrash\\Billboard.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Billboard.cs",
+              "RelativeToolTip": "Assets\\AroriTrash\\Billboard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:51:39.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriTrash\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\AroriTrash\\HealthBar.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAvwCYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:11:06.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Visualizer.cs",
               "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
               "RelativeDocumentMoniker": "Assets\\AroriTrash\\Visualizer.cs",
               "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
               "RelativeToolTip": "Assets\\AroriTrash\\Visualizer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T15:06:53.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "HeroCreateSystem.cs",
               "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
               "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
               "RelativeToolTip": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEsAAABZAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFEAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T07:48:21.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T07:48:21.76Z"
             }
           ]
         }

@@ -72,5 +72,6 @@ public class Visualizer : MonoBehaviour
     {
         imageTracking.firstCharacterController.SetTrigger("Attack");
         imageTracking.secondCharacterController.SetTrigger("Attack");
+        battleButton.gameObject.SetActive(false);
     }
 }

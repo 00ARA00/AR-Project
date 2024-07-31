@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "EHT0219A09000716",
         "name": "com.unity.template.ar_mobile",
-        "processId": 9811,
+        "processId": 28974,
         "exited": false
     },
     "m_SelectedPriority": 2,
@@ -84,6 +84,72 @@
             "deviceId": "EHT0219A09000716",
             "name": "com.unity.template.ar_mobile",
             "processId": 9811,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 18471,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 21532,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 22586,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 23557,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 24197,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 25026,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 25662,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 26362,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 27132,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 28209,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 28974,
             "exited": false
         }
     ],

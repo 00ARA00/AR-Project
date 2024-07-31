@@ -22,9 +22,15 @@ namespace Gameplay.Systems.Creators
 
         [SerializeField] private Transform secondCharacterTransform;
 
-        [NonSerialized] private GameObject firstCharacter;
+        [SerializeField] private Transform camera;
 
-        [NonSerialized] private GameObject secondCharacter;
+        [NonSerialized] public HealthBar firstCharacterHealthBar;
+
+        [NonSerialized] public HealthBar secondCharacterHealthBar;
+
+        [NonSerialized] public GameObject firstCharacter;
+
+        [NonSerialized] public GameObject secondCharacter;
 
         [NonSerialized] public Animator firstCharacterController;
         [NonSerialized] public Animator secondCharacterController;
@@ -65,7 +71,12 @@ namespace Gameplay.Systems.Creators
                     firstImageName = trackedImage.referenceImage.name;
                     firstCharacter = Instantiate(arObjects[firstImageName], firstCharacterTransform.position, firstCharacterTransform.rotation);
                     firstCharacter.transform.parent = firstCharacterTransform;
+                    firstCharacter.GetComponent<Attack>().createSystem = GetComponent<HeroCreateSystem>();
                     firstCharacterController = firstCharacter.GetComponent<Animator>();
+                    firstCharacter.GetComponent<Billboard>().camera = this.camera;
+                    firstCharacterHealthBar = firstCharacter.GetComponent<HealthBar>();
+                    
+
                     text.text = "Please track second image.";
                 }
                 if (firstImageName != null && trackedImage.referenceImage.name != firstImageName)
@@ -73,7 +84,10 @@ namespace Gameplay.Systems.Creators
                     secondImageName = trackedImage.referenceImage.name;
                     secondCharacter = Instantiate(arObjects[secondImageName], secondCharacterTransform.position, secondCharacterTransform.rotation);
                     secondCharacter.transform.parent = secondCharacterTransform;
+                    secondCharacter.GetComponent<Attack>().createSystem = GetComponent<HeroCreateSystem>();
                     secondCharacterController = secondCharacter.GetComponent<Animator>();
+                    secondCharacter.GetComponent<Billboard>().camera = this.camera;
+                    secondCharacterHealthBar = secondCharacter.GetComponent<HealthBar>();
                     text.text = "Images tracked.";
                     tracked = true;
                 }
