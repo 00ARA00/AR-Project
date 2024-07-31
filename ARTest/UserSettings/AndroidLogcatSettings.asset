@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "EHT0219A09000716",
         "name": "com.unity.template.ar_mobile",
-        "processId": 28974,
+        "processId": 29840,
         "exited": false
     },
     "m_SelectedPriority": 2,
@@ -150,6 +150,12 @@
             "deviceId": "EHT0219A09000716",
             "name": "com.unity.template.ar_mobile",
             "processId": 28974,
+            "exited": false
+        },
+        {
+            "deviceId": "EHT0219A09000716",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 29840,
             "exited": false
         }
     ],
