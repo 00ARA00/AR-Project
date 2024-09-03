@@ -958,8 +958,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1913832080}
-  - {fileID: 1236646982}
   - {fileID: 1232564951}
+  - {fileID: 1236646982}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1007,10 +1007,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227882876}
-  - component: {fileID: 1227882877}
+  - component: {fileID: 1227882883}
+  - component: {fileID: 1227882882}
+  - component: {fileID: 1227882881}
+  - component: {fileID: 1227882880}
+  - component: {fileID: 1227882879}
   - component: {fileID: 1227882878}
+  - component: {fileID: 1227882877}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1040,18 +1045,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1227882874}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf3a0778fc70c4f47a0126986578ab64, type: 3}
+  m_Script: {fileID: 11500000, guid: b49d1b22f38369543902cccbf86d80a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackedImagesManager: {fileID: 1554271186}
-  text: {fileID: 1913832081}
-  arObjectPrefabs:
-  - {fileID: 8569120031656441499, guid: d8c1ccb89e734bb4b99e48de903f3fdb, type: 3}
-  - {fileID: 942144070757589083, guid: bcaef2842a6d9464f97256c07596c995, type: 3}
-  firstCharacterTransform: {fileID: 1108168474}
-  secondCharacterTransform: {fileID: 1065084631}
-  camera: {fileID: 586630748}
-  tracked: 0
+  spawnInitializer: {fileID: 1227882882}
 --- !u!114 &1227882878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,15 +1058,88 @@ MonoBehaviour:
   m_GameObject: {fileID: 1227882874}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e09e4062c809db42beabd80b70d3c33, type: 3}
+  m_Script: {fileID: 11500000, guid: c892a568282f55c40997d6e63a6fbda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnArenaButton: {fileID: 1236646979}
+  startBattleButton: {fileID: 1232564952}
+--- !u!114 &1227882879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227882874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298609d585c105742b841f22f9bfbcd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnInitializer: {fileID: 1227882882}
+--- !u!114 &1227882880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227882874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e904542edb94f643883d7165fac85f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnInitializer: {fileID: 1227882882}
+--- !u!114 &1227882881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227882874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e62cf6ee04c3c4f98b7b15983a9002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnInitializer: {fileID: 1227882882}
+--- !u!114 &1227882882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227882874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff385ef379fa42c40ad1f6816c64d6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInputSystem: {fileID: 1227882878}
+  imageTracker: {fileID: 1227882877}
+  aRRaycastManager: {fileID: 1554271187}
+  raycastSystem: {fileID: 1227882879}
+  spawnResources: {fileID: 1227882883}
+  aRTrackedImagesManager: {fileID: 1554271186}
+--- !u!114 &1227882883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227882874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1122dd45267a14645a8e3f1589ae67bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   planeMarkerPrefab: {fileID: 564210849}
-  raycastManager: {fileID: 1554271187}
-  spawnArenaButton: {fileID: 1236646979}
-  battleButton: {fileID: 1232564952}
-  imageTracking: {fileID: 1227882877}
   arena: {fileID: 824449358}
+  firstCharacter: {fileID: 1108168473}
+  secondCharacter: {fileID: 1065084630}
+  aRObjectPrefabs:
+  - {fileID: 942144070757589083, guid: bcaef2842a6d9464f97256c07596c995, type: 3}
+  - {fileID: 8569120031656441499, guid: d8c1ccb89e734bb4b99e48de903f3fdb, type: 3}
+  textInstructions: {fileID: 1913832081}
 --- !u!1 &1232564950
 GameObject:
   m_ObjectHideFlags: 0
