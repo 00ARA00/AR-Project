@@ -1,30 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\",
+  "WorkspaceRootPath": "E:\\AR-Project\\AR-Project\\ARTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|c:\\users\\den\\documents\\github\\ar-project\\artest\\assets\\aroritrash\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|e:\\ar-project\\ar-project\\artest\\assets\\aroriworkspace\\scripts\\spawnarena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\spawnarena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerinputsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerinputsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\attackanimationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\attackanimationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\raycastsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\raycastsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\showmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\showmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroritrash\\visualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\spawninitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\spawninitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\herocreatesystems\\herocreatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\spawnresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\spawnresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\imagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\imagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerdexterityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerdexterityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerintelligenceattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerintelligenceattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerstrengthattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerstrengthattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|E:\\AR-Project\\AR-Project\\ARTest\\assets\\aroriworkspace\\scripts\\playerlocalstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2479BDE7-26EA-A61A-8E37-48A4E236D674}|Assembly-CSharp.csproj|solutionrelative:assets\\aroriworkspace\\scripts\\playerlocalstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +66,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Attack.cs",
-              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Attack.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\Attack.cs",
-              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Attack.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\Attack.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCEAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T11:35:35.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AttackAnimationEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AttackAnimationEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\AttackAnimationEvent.cs",
-              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\AttackAnimationEvent.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\AttackAnimationEvent.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T11:24:21.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Billboard.cs",
-              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Billboard.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\Billboard.cs",
-              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Billboard.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\Billboard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T09:51:39.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HealthBar.cs",
-              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\HealthBar.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\HealthBar.cs",
-              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\HealthBar.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\HealthBar.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAvwCYAAAAFAAAA",
+              "Title": "SpawnArena.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\SpawnArena.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\SpawnArena.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\SpawnArena.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\SpawnArena.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T09:11:06.574Z",
+              "WhenOpened": "2024-09-03T02:59:47.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Visualizer.cs",
-              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
-              "RelativeDocumentMoniker": "Assets\\AroriTrash\\Visualizer.cs",
-              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\AroriTrash\\Visualizer.cs",
-              "RelativeToolTip": "Assets\\AroriTrash\\Visualizer.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAkwEYAAAAeAAAA",
+              "DocumentIndex": 6,
+              "Title": "ImageTracker.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\ImageTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\ImageTracker.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\ImageTracker.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\ImageTracker.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T15:06:53.392Z",
+              "WhenOpened": "2024-09-03T03:31:19.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HeroCreateSystem.cs",
-              "DocumentMoniker": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "ToolTip": "C:\\Users\\Den\\Documents\\GitHub\\AR-Project\\ARTest\\Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "RelativeToolTip": "Assets\\Game\\Scripts\\HeroCreateSystems\\HeroCreateSystem.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFEAAABhAAAA",
+              "Title": "SpawnResources.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\SpawnResources.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\SpawnResources.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\SpawnResources.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\SpawnResources.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T07:48:21.76Z"
+              "WhenOpened": "2024-09-03T05:20:54.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpawnInitializer.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\SpawnInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\SpawnInitializer.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\SpawnInitializer.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\SpawnInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T04:11:18.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RaycastSystem.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\RaycastSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\RaycastSystem.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\RaycastSystem.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\RaycastSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:03:45.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowMarker.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\ShowMarker.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\ShowMarker.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\ShowMarker.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\ShowMarker.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T03:25:59.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerSkill.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerSkill.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerSkill.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerSkill.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T23:08:52.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInputSystem.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerInputSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerInputSystem.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerInputSystem.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerInputSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T21:00:06.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerDexterityAttribute.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerDexterityAttribute.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerDexterityAttribute.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerDexterityAttribute.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerDexterityAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:42:48.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerIntelligenceAttribute.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerIntelligenceAttribute.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerIntelligenceAttribute.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerIntelligenceAttribute.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerIntelligenceAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:42:24.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerStrengthAttribute.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerStrengthAttribute.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerStrengthAttribute.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerStrengthAttribute.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerStrengthAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:33:13.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:38:38.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerLocalStats.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerLocalStats.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerLocalStats.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerLocalStats.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerLocalStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:37:45.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerInitializer.cs",
+              "DocumentMoniker": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\AroriWorkSpace\\Scripts\\PlayerInitializer.cs",
+              "ToolTip": "E:\\AR-Project\\AR-Project\\ARTest\\Assets\\AroriWorkSpace\\Scripts\\PlayerInitializer.cs",
+              "RelativeToolTip": "Assets\\AroriWorkSpace\\Scripts\\PlayerInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:33:49.033Z"
             }
           ]
         }
