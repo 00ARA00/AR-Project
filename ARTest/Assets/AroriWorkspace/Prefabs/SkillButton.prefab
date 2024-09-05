@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8981240676777868094}
   - component: {fileID: 5860207492809695297}
   - component: {fileID: 2122889566179927947}
+  - component: {fileID: 8825204190063461126}
   m_Layer: 5
   m_Name: SkillButton
   m_TagString: Untagged
@@ -78,6 +79,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8825204190063461126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011418341775332660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa5a46d8255c9d40a1ad185baaf4e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSkill: {fileID: 2365708661492819781}
+  skillImage: {fileID: 5194513927943154921}
+  strengthUIText: {fileID: 5270975564783930750}
+  dexterityUIText: {fileID: 5010148927512440646}
+  intelligenceUIText: {fileID: 7186469168791108267}
 --- !u!1 &1864864662343553915
 GameObject:
   m_ObjectHideFlags: 0

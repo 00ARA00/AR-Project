@@ -2418,6 +2418,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8170677801875055499}
   - component: {fileID: 1811807230274817154}
+  - component: {fileID: 8506317182297583172}
+  - component: {fileID: 6539564596955131745}
+  - component: {fileID: 4997021210951525880}
+  - component: {fileID: 2937504338432570636}
+  - component: {fileID: 3440766292722563593}
+  - component: {fileID: 1075673481844576873}
   m_Layer: 0
   m_Name: Lich_Blood
   m_TagString: Untagged
@@ -2464,6 +2470,92 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8506317182297583172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569120031656441499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed60d560929cc34faffc5c5d7970572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 2937504338432570636}
+--- !u!114 &6539564596955131745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569120031656441499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e141393d7f5d1ec4fac0be0165d6abc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 0
+  strength: 0
+  dexterity: 0
+  intelligence: 0
+--- !u!114 &4997021210951525880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569120031656441499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc57e6fac339aa4986e1907d69a21e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 2937504338432570636}
+--- !u!114 &2937504338432570636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569120031656441499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff18429955e03c949b055c58545e84ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 3440766292722563593}
+  playerStrengthAttribute: {fileID: 8506317182297583172}
+  playerDexterityAttribute: {fileID: 1075673481844576873}
+  playerIntelligenceAttribute: {fileID: 4997021210951525880}
+  playerLocalStats: {fileID: 6539564596955131745}
+--- !u!114 &3440766292722563593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569120031656441499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 129bef5a951aedb44ab6ce6e3d96508f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 2937504338432570636}
+--- !u!114 &1075673481844576873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569120031656441499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dcff84713b525244bcbbd90ea041146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 2937504338432570636}
 --- !u!1 &8923074337695744473
 GameObject:
   m_ObjectHideFlags: 0

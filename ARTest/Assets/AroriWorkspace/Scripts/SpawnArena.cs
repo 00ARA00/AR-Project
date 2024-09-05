@@ -11,7 +11,7 @@ public class SpawnArena : MonoBehaviour
 {
     [SerializeField] private SpawnInitializer spawnInitializer;
 
-    private PlayerInputSystem _playerInputSystem;
+    private UISystem _uISystem;
     private GameObject _arena;
     private Button _spawnArenaButton;
     private Button _startBattleButton;
@@ -21,19 +21,19 @@ public class SpawnArena : MonoBehaviour
 
     private void Awake()
     {
-        _playerInputSystem = spawnInitializer.PlayerInputSystem;
+        _uISystem = spawnInitializer.UISystem;
         _arena = spawnInitializer.SpawnResources.Arena;
-        _spawnArenaButton = spawnInitializer.PlayerInputSystem.SpawnArenaButton;
-        _startBattleButton = spawnInitializer.PlayerInputSystem.StartBattleButton;
+        _spawnArenaButton = spawnInitializer.UISystem.SpawnArenaButton;
+        _startBattleButton = spawnInitializer.UISystem.StartBattleButton;
         _raycastSystem = spawnInitializer.RaycastSystem;
 
-        _playerInputSystem.OnSpawnArenaButtonClick -= OnSpawnArenaButtonClick;
-        _playerInputSystem.OnSpawnArenaButtonClick += OnSpawnArenaButtonClick;
+        _uISystem.OnSpawnArenaButtonClick -= OnSpawnArenaButtonClick;
+        _uISystem.OnSpawnArenaButtonClick += OnSpawnArenaButtonClick;
     }
 
     private void Start()
     {
-        _arena.SetActive(false);
+        _startBattleButton.gameObject.SetActive(false);
     }
 
     private void OnSpawnArenaButtonClick()

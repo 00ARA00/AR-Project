@@ -27,8 +27,8 @@ RectTransform:
   m_GameObject: {fileID: 8815609228095348086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.93, y: 1.93, z: 1.93}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7429896765714035059}
   - {fileID: 5387261698510507612}
@@ -39,8 +39,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 114.15958}
-  m_SizeDelta: {x: -108.2, y: 228.31909}
+  m_AnchoredPosition: {x: -0.0015869141, y: 253.91003}
+  m_SizeDelta: {x: -520.42, y: 263.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8227727211881831995
 CanvasRenderer:
@@ -340,6 +340,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Skill
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424282029129302299, guid: cabb531583a121041ac5ffd4d65a22d2,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424282029129302299, guid: cabb531583a121041ac5ffd4d65a22d2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424282029129302299, guid: cabb531583a121041ac5ffd4d65a22d2,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424282029129302299, guid: cabb531583a121041ac5ffd4d65a22d2,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424282029129302299, guid: cabb531583a121041ac5ffd4d65a22d2,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424282029129302299, guid: cabb531583a121041ac5ffd4d65a22d2,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8981240676777868094, guid: cabb531583a121041ac5ffd4d65a22d2,
         type: 3}

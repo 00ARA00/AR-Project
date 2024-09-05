@@ -10,10 +10,7 @@ public class SpawnResources : MonoBehaviour
     [SerializeField] private GameObject firstCharacter;
     [SerializeField] private GameObject secondCharacter;
     [SerializeField] private List<GameObject> aRObjectPrefabs;
-    [SerializeField] private Text textInstructions;
 
-
-    public Text TextInstructions => textInstructions;
     public List<GameObject> ARObjectPrefabs => aRObjectPrefabs;
     public GameObject FirstCharacter => firstCharacter;
     public GameObject SecondCharacter => secondCharacter;

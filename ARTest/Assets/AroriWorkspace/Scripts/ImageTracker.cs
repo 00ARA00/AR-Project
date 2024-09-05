@@ -26,6 +26,9 @@ public class ImageTracker : MonoBehaviour
     private List<GameObject> _aRObjectPrefabs;
 
     private Text _textInstructions;
+    private SkillsPanel _skillsPanel;
+    private Button _createArenaButton;
+    private Button _startBattleButton;
 
     public GameObject FirstCharacter => _firstCharacter;
     public GameObject SecondCharacter => _secondCharacter;
@@ -39,7 +42,7 @@ public class ImageTracker : MonoBehaviour
         _firstCharacterTransform = spawnInitializer.SpawnResources.FirstCharacter.transform;
         _secondCharacterTransform = spawnInitializer.SpawnResources.SecondCharacter.transform;
         _aRObjectPrefabs = spawnInitializer.SpawnResources.ARObjectPrefabs;
-        _textInstructions = spawnInitializer.SpawnResources.TextInstructions;
+        _textInstructions = spawnInitializer.UISystem.TextInstructions;
 
         _aRTrackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
         _aRTrackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
@@ -52,6 +55,7 @@ public class ImageTracker : MonoBehaviour
 
     private void Start()
     {
+        _textInstructions.gameObject.SetActive(true);
         _textInstructions.text = "Please track first image.";
     }
 
@@ -80,6 +84,8 @@ public class ImageTracker : MonoBehaviour
     private void SpawnPlayer(GameObject character, string imageName, Transform spawnPoint)
     {
         character = Instantiate(arObjects[imageName], spawnPoint.position, spawnPoint.rotation);
+        PlayerInitializer playerInitializer = character.GetComponent<PlayerInitializer>();
+        playerInitializer.InitializeSI(spawnInitializer);
         character.transform.parent = spawnPoint;
     }
 

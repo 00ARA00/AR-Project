@@ -11,10 +11,11 @@ public class ShowMarker : MonoBehaviour
     [SerializeField] private SpawnInitializer spawnInitializer;
 
     private GameObject _planeMarkerPrefab;
-    private PlayerInputSystem _playerInputSystem;
+    private UISystem _uISystem;
     private ImageTracker _imageTracker;
     private RaycastSystem _raycastSystem;
     private Text _textInstructions;
+    private Button _spawnArenaButton;
 
     private Vector3 _raycastHit;
     private bool _imageTracked;
@@ -23,13 +24,16 @@ public class ShowMarker : MonoBehaviour
     private void Awake()
     {
         _planeMarkerPrefab = spawnInitializer.SpawnResources.PlaneMarkerPrefab;
-        _playerInputSystem = spawnInitializer.PlayerInputSystem;
+        _uISystem = spawnInitializer.UISystem;
         _imageTracker = spawnInitializer.ImageTracker;
         _raycastSystem = spawnInitializer.RaycastSystem;
-        _textInstructions = spawnInitializer.SpawnResources.TextInstructions;
+        _textInstructions = spawnInitializer.UISystem.TextInstructions;
+        _spawnArenaButton = spawnInitializer.UISystem.SpawnArenaButton;
 
-        _playerInputSystem.OnSpawnArenaButtonClick -= OnSpawnArenaButtonClick;
-        _playerInputSystem.OnSpawnArenaButtonClick += OnSpawnArenaButtonClick;
+        _uISystem.OnSpawnArenaButtonClick -= OnSpawnArenaButtonClick;
+        _uISystem.OnSpawnArenaButtonClick += OnSpawnArenaButtonClick;
+
+        
         _imageTracker.OnImageTracked -= OnImageTracked;
         _imageTracker.OnImageTracked += OnImageTracked;
     }
@@ -37,6 +41,7 @@ public class ShowMarker : MonoBehaviour
     private void Start()
     {
         _planeMarkerPrefab.gameObject.SetActive(false);
+        _spawnArenaButton.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -56,6 +61,7 @@ public class ShowMarker : MonoBehaviour
     {
         _imageTracked = true;
         _textInstructions.gameObject.SetActive(false);
+        _spawnArenaButton.gameObject.SetActive(true);
     }
 
     private void ShowMarkerOnGround()
