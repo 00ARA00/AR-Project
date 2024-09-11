@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour 
 {
     [SerializeField] private PlayerInitializer playerInitializer;
+
+    public event Action OnDamageTaken;
 
     public float Health { get; private set; }
     public float MaxHealth { get; private set; }
@@ -18,19 +21,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        if (IsDead)
-            return;
-
         Health -= damage;
 
-        if (Health <= 0)
-        {
-            IsDead = true;
-        }
-    }
-
-    public float GetValue()
-    {
-        return Health;
+        OnDamageTaken?.Invoke();
     }
 }

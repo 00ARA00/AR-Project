@@ -13,8 +13,6 @@ public class SpawnArena : MonoBehaviour
 
     private UISystem _uISystem;
     private GameObject _arena;
-    private Button _spawnArenaButton;
-    private Button _startBattleButton;
     private RaycastSystem _raycastSystem;
 
     private Vector3 _raycastHit;
@@ -23,21 +21,16 @@ public class SpawnArena : MonoBehaviour
     {
         _uISystem = spawnInitializer.UISystem;
         _arena = spawnInitializer.SpawnResources.Arena;
-        _spawnArenaButton = spawnInitializer.UISystem.SpawnArenaButton;
-        _startBattleButton = spawnInitializer.UISystem.StartBattleButton;
         _raycastSystem = spawnInitializer.RaycastSystem;
 
         _uISystem.OnSpawnArenaButtonClick -= OnSpawnArenaButtonClick;
         _uISystem.OnSpawnArenaButtonClick += OnSpawnArenaButtonClick;
     }
 
-    private void Start()
-    {
-        _startBattleButton.gameObject.SetActive(false);
-    }
-
     private void OnSpawnArenaButtonClick()
     {
+        _uISystem.DisableAllUI();
+        _uISystem.EnableBattleStarterLayout();
         SpawnArenaOnMarker();
     }
 
@@ -49,9 +42,6 @@ public class SpawnArena : MonoBehaviour
 
         _arena.transform.position = _raycastHit;
         _arena.SetActive(true);
-
-        _spawnArenaButton.gameObject.SetActive(false);
-        _startBattleButton.gameObject.SetActive(true);
     }
 
 }

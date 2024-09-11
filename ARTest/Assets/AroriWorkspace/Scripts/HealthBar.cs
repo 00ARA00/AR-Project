@@ -6,41 +6,57 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
-    [SerializeField] public Slider healthBarSlider;
-    [SerializeField] public Slider easeHealthBarSlider;
-    [SerializeField] private float maxHealth = 100;
-    public float damage = 10;
-    public float currentHealth;
-    private float lerpSpeed = 0.05f;
+    [SerializeField] private PlayerInitializer playerInitializer;
+    [SerializeField] private Slider healthBarSlider;
+    [SerializeField] private Slider easeHealthBarSlider;
 
-    void Awake()
+    private float lerpSpeed = 0.1f;
+
+    private PlayerHealth _playerHealth;
+    private bool _isLerping;
+
+    private void Awake()
     {
-        currentHealth = maxHealth;
+
+        playerInitializer.Health.OnDamageTaken -= OnDamageTaken;
+        playerInitializer.Health.OnDamageTaken += OnDamageTaken;
+
+        _playerHealth = playerInitializer.Health;
+
     }
 
-    void Update()
+    private void Start()
     {
+        healthBarSlider.maxValue = _playerHealth.MaxHealth;
+        healthBarSlider.value = _playerHealth.Health;
+
+        easeHealthBarSlider.maxValue = healthBarSlider.maxValue;
+        easeHealthBarSlider.value = healthBarSlider.value;
+        
+    }
+
+    private void Update()
+    {
+        if (_isLerping)
+            LerpHealth(_playerHealth.Health);
+    }
+
+    private void OnDamageTaken()
+    {
+        _isLerping = true;
+    }
+
+    private void LerpHealth(float currentHealth)
+    {
+        healthBarSlider.value = currentHealth;
+
         if (healthBarSlider.value != easeHealthBarSlider.value)
         {
-            easeHealthBarSlider.value = Mathf.Lerp(easeHealthBarSlider.value, currentHealth, lerpSpeed);
+            easeHealthBarSlider.value = Mathf.Lerp(easeHealthBarSlider.value, healthBarSlider.value, lerpSpeed);
         }
-
-        if (currentHealth <= 0f)
+        else
         {
-            Death();
+            _isLerping = false;
         }
-    }
-
-    private void Death()
-    {
-        animator.ResetTrigger("Attack");
-        animator.SetTrigger("Death");
-    }
-
-    public void TakeDamage()
-    {
-        currentHealth -= damage;
-        healthBarSlider.value = currentHealth;
     }
 }

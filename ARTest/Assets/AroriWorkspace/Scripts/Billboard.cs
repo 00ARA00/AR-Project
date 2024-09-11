@@ -5,12 +5,25 @@ using UnityEngine;
 
 public class Billboard : MonoBehaviour
 {
+    [SerializeField] private PlayerInitializer playerInitializer;
     [SerializeField] private Transform healthBarTransform;
-    [NonSerialized] public Transform camera;
+
+    private Transform _camera;
+
+    private void Awake()
+    {
+        playerInitializer.OnInitializesConnection -= OnInitializesConnection;
+        playerInitializer.OnInitializesConnection += OnInitializesConnection;
+    }
+
+    private void OnInitializesConnection()
+    {
+        _camera = playerInitializer.SpawnInitializer.SpawnResources.Camera;
+    }
 
     private void LateUpdate()
     {
-        healthBarTransform.LookAt(healthBarTransform.position + camera.forward);
+        if (_camera != null)
+            healthBarTransform.LookAt(healthBarTransform.position + _camera.forward);
     }
-
 }

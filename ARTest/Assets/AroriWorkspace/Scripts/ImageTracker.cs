@@ -2,10 +2,11 @@ using Gameplay.Systems.Creators;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class ImageTracker : MonoBehaviour
 {
@@ -20,73 +21,90 @@ public class ImageTracker : MonoBehaviour
     private Transform _firstCharacterTransform;
     private Transform _secondCharacterTransform;
 
-    private GameObject _firstCharacter;
-    private GameObject _secondCharacter;
+    private List<GameObject> _heroList = new List<GameObject>();
+    private List<GameObject> _enemyList = new List<GameObject>();
 
-    private List<GameObject> _aRObjectPrefabs;
+    private List<string> _heroNamesList = new List<string>();
+    private List<string> _enemyNamesList = new List<string>();
 
-    private Text _textInstructions;
-    private SkillsPanel _skillsPanel;
-    private Button _createArenaButton;
-    private Button _startBattleButton;
+    private UISystem _uISystem;
 
-    public GameObject FirstCharacter => _firstCharacter;
-    public GameObject SecondCharacter => _secondCharacter;
+    private PlayerInitializer _heroInitializer;
+    private PlayerInitializer _enemyInitializer;
 
-    private string _firstImageName;
-    private string _secondImageName;
+    public PlayerInitializer HeroInitializer => _heroInitializer;
+    public PlayerInitializer EnemyInitializer => _enemyInitializer;
+
+    private bool _heroIsScaned;
 
     private void Awake()
     {
         _aRTrackedImagesManager = spawnInitializer.ARTrackedImageManager;
         _firstCharacterTransform = spawnInitializer.SpawnResources.FirstCharacter.transform;
         _secondCharacterTransform = spawnInitializer.SpawnResources.SecondCharacter.transform;
-        _aRObjectPrefabs = spawnInitializer.SpawnResources.ARObjectPrefabs;
-        _textInstructions = spawnInitializer.UISystem.TextInstructions;
+        _heroList = spawnInitializer.SpawnResources.HeroList;
+        _enemyList = spawnInitializer.SpawnResources.EnemyList;
+        _uISystem = spawnInitializer.UISystem;
 
-        _aRTrackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
-        _aRTrackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
+        _uISystem.OnPlayGameButtonClick -= OnPlayGameButtonClick;
+        _uISystem.OnPlayGameButtonClick += OnPlayGameButtonClick;
 
-        foreach (var prefab in _aRObjectPrefabs)
+        foreach (var prefab in _heroList)
         {
+            _heroNamesList.Add(prefab.name);
+            arObjects.Add(prefab.name, prefab);
+        }
+
+        foreach (var prefab in _enemyList)
+        {
+            _enemyNamesList.Add(prefab.name);
             arObjects.Add(prefab.name, prefab);
         }
     }
 
-    private void Start()
-    {
-        _textInstructions.gameObject.SetActive(true);
-        _textInstructions.text = "Please track first image.";
-    }
 
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
-        foreach (var trackedImage in eventArgs.added)
+        foreach (var trackedImage in eventArgs.updated)
         {
-            if (_firstImageName == null)
+            if (_heroNamesList.Contains(trackedImage.referenceImage.name) && !_heroIsScaned)
             {
-                _firstImageName = trackedImage.referenceImage.name;
-                SpawnPlayer(_firstCharacter, _firstImageName, _firstCharacterTransform);
-                _textInstructions.text = "Please track second image.";
+                string _imageName = trackedImage.referenceImage.name;
+
+                _heroInitializer = SpawnCharacter(_imageName, _firstCharacterTransform);
+
+                _uISystem.ChangeInstructionsText("Please track your enemy.");
+                _heroIsScaned = true;
             }
 
-            if (_firstImageName != null && trackedImage.referenceImage.name != _firstImageName)
+            if (_enemyNamesList.Contains(trackedImage.referenceImage.name) && _heroIsScaned)
             {
-                _secondImageName = trackedImage.referenceImage.name;
-                SpawnPlayer(_secondCharacter, _secondImageName, _secondCharacterTransform);
+                string _imageName = trackedImage.referenceImage.name;
+                _enemyInitializer = SpawnCharacter(_imageName, _secondCharacterTransform);
+
+                _uISystem.ChangeInstructionsText("Choose place to create Arena.");
 
                 OnImageTracked?.Invoke();
-                _textInstructions.text = "Images are tracked.";
+                _aRTrackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
             }
         }
     }
 
-    private void SpawnPlayer(GameObject character, string imageName, Transform spawnPoint)
+    private void OnPlayGameButtonClick()
     {
-        character = Instantiate(arObjects[imageName], spawnPoint.position, spawnPoint.rotation);
+        _aRTrackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
+        _aRTrackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
+
+        _uISystem.ChangeInstructionsText("Please track your Hero.");
+        _uISystem.EnableImageTrackerLayout();
+    }
+
+    private PlayerInitializer SpawnCharacter(string imageName, Transform spawnPoint)
+    {
+        GameObject character = Instantiate(arObjects[imageName], spawnPoint.position, spawnPoint.rotation);
         PlayerInitializer playerInitializer = character.GetComponent<PlayerInitializer>();
         playerInitializer.InitializeSI(spawnInitializer);
         character.transform.parent = spawnPoint;
+        return playerInitializer;
     }
-
 }
