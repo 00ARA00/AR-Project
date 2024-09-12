@@ -10,6 +10,6 @@ public class PlayerIntelligenceAttribute : MonoBehaviour
 
     private void Awake()
     {
-        Intelligence = playerInitializer.Stats.Intelligence;
+        Intelligence = playerInitializer.Stats.IntelligentAttribute;
     }
 }

@@ -25,6 +25,8 @@ public abstract class PlayerSkill : MonoBehaviour
 
     protected PlayerInitializer enemyInitializer;
 
+    private PlayerLocalStats _playerLocalStats;
+
     private bool _isAvaible = true;
 
     public bool IsAvaible => _isAvaible;
@@ -34,22 +36,30 @@ public abstract class PlayerSkill : MonoBehaviour
         _disableColor = new Color(150, 150, 150);
         _enableColor = new Color(255, 255, 255);
 
+        _playerLocalStats = playerInitializer.Stats;
         _animationController = playerInitializer.AnimationController;
 
-        _strengtAttribute = playerInitializer.Stats.Strength;
-        _dexterityAttribute = playerInitializer.Stats.Dexterity;
-        _intelligenceAttribute = playerInitializer.Stats.Intelligence;
+        SyncAttributes();
 
-        playerInitializer.AnimationEventController.OnTriggerSkillEffect -= OnTriggerSkillEffect;
-        playerInitializer.AnimationEventController.OnTriggerSkillEffect += OnTriggerSkillEffect;
         playerInitializer.OnInitializesConnection -= OnInitializesConnection;
         playerInitializer.OnInitializesConnection += OnInitializesConnection;
 
+        playerInitializer.AnimationEventController.OnTriggerSkillEffect -= OnTriggerSkillEffect;
+        playerInitializer.AnimationEventController.OnTriggerSkillEffect += OnTriggerSkillEffect;
+
+        _playerLocalStats.OnAttributesChanged -= OnAttributesChanged;
+        _playerLocalStats.OnAttributesChanged += OnAttributesChanged;
     }
 
-    private void OnTriggerSkillEffect()
+    private void OnAttributesChanged()
     {
-        SkillEffect();
+        SyncAttributes();
+        AttributesCheck();
+    }
+
+    private void SyncAttributes()
+    {
+        (_strengtAttribute, _dexterityAttribute, _intelligenceAttribute) = _playerLocalStats.GetAttributes();
     }
 
     private void OnInitializesConnection()
@@ -70,18 +80,6 @@ public abstract class PlayerSkill : MonoBehaviour
         _skillButton.OnSkillButtonClick += OnSkillButtonClick;
     }
 
-    private void OnSkillButtonClick()
-    {
-        _animationController.SkillAnimation(skillName);
-    }
-
-    protected virtual void Initialize()
-    {
-        enemyInitializer = playerInitializer.SpawnInitializer.ImageTracker.EnemyInitializer;
-    }
-
-    protected abstract void SkillEffect();
-
     private void InizializeButtonUI()
     {
         _skillButton.StrengthUIText.text = strengthRequirment.ToString();
@@ -90,6 +88,25 @@ public abstract class PlayerSkill : MonoBehaviour
 
         _skillButton.ChangeIcon(skillIcon);
     }
+
+    protected virtual void Initialize()
+    {
+        enemyInitializer = playerInitializer.SpawnInitializer.ImageTracker.EnemyInitializer;
+    }
+
+    private void OnSkillButtonClick()
+    {
+        _animationController.SkillAnimation(skillName);
+
+        _playerLocalStats.SetAttributes(_strengtAttribute - strengthRequirment, _dexterityAttribute - dexterityRequirment, _intelligenceAttribute - intelligenceRequirment);
+    }
+
+    private void OnTriggerSkillEffect()
+    {
+        SkillEffect();
+    }
+
+    protected abstract void SkillEffect();
 
     private void AttributesCheck()
     {

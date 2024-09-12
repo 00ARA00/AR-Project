@@ -10,6 +10,6 @@ public class PlayerDexterityAttribute : MonoBehaviour
 
     private void Awake()
     {
-        Dexterity = playerInitializer.Stats.Dexterity;
+        Dexterity = playerInitializer.Stats.DexterityAttribute;
     }
 }

@@ -10,6 +10,6 @@ public class PlayerStrengthAttribute : MonoBehaviour
 
     private void Awake()
     {
-        Strength = playerInitializer.Stats.Strength;
+        Strength = playerInitializer.Stats.StrengthAttribute;
     }
 }
