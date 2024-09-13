@@ -62,7 +62,6 @@ public class ImageTracker : MonoBehaviour
         }
     }
 
-
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
         foreach (var trackedImage in eventArgs.updated)

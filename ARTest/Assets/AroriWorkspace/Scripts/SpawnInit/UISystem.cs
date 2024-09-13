@@ -11,29 +11,31 @@ public class UISystem : MonoBehaviour
     [SerializeField] private Button spawnArenaButton;
     [SerializeField] private Button startBattleButton;
     [SerializeField] private Button playGameButton;
-    [SerializeField] private Button takeDamageButton;
+    [SerializeField] private Button rollDicesButton;
     [SerializeField] private TextMeshProUGUI textInstructions;
     [SerializeField] private TextMeshProUGUI gameName;
     [SerializeField] private SkillsPanel skillsPanel;
+    [SerializeField] private StatsWidget statsWidget;
 
     public SkillsPanel SkillsPanel => skillsPanel;
 
     public event Action OnPlayGameButtonClick;
     public event Action OnSpawnArenaButtonClick;
     public event Action OnStartBattleButtonClick;
-    public event Action OnDamageTakenButtonClick;
+    public event Action OnRollDicesButtonClick;
 
     private void Awake()
     {
         playGameButton.onClick?.AddListener(() => OnPlayGameButtonClick?.Invoke());
         spawnArenaButton.onClick?.AddListener(() => OnSpawnArenaButtonClick?.Invoke());
         startBattleButton.onClick?.AddListener(() => OnStartBattleButtonClick?.Invoke());
-        takeDamageButton.onClick?.AddListener(() => OnDamageTakenButtonClick?.Invoke());
+        rollDicesButton.onClick?.AddListener(() => OnRollDicesButtonClick?.Invoke());
     }
 
     public void DisableAllUI()
     {
-        takeDamageButton.gameObject.SetActive(false);
+        statsWidget.gameObject.SetActive(false);
+        rollDicesButton.gameObject.SetActive(false);
         spawnArenaButton.gameObject.SetActive(false);
         startBattleButton.gameObject.SetActive(false);
         playGameButton.gameObject.SetActive(false);
@@ -67,7 +69,8 @@ public class UISystem : MonoBehaviour
 
     public void EnableBattleLayout()
     {
-        takeDamageButton.gameObject.SetActive(true);
+        statsWidget.gameObject.SetActive(true);
+        rollDicesButton.gameObject.SetActive(true);
         skillsPanel.gameObject.SetActive(true);
     }
 

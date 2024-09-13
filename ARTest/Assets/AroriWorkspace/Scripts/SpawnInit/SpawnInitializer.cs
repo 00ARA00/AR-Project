@@ -12,11 +12,8 @@ public class SpawnInitializer : MonoBehaviour
     [SerializeField] private SpawnResources spawnResources;
     [SerializeField] private ARTrackedImageManager aRTrackedImagesManager;
 
-
-    private PlayerInitializer _playerInitializer;
-
-
-    public PlayerInitializer PlayerInitializer => _playerInitializer;
+    public PlayerInitializer HeroInitializer => imageTracker.HeroInitializer;
+    public PlayerInitializer EnemyInitializer => imageTracker.EnemyInitializer;
     public ARTrackedImageManager ARTrackedImageManager => aRTrackedImagesManager;
     public ImageTracker ImageTracker => imageTracker;
     public UISystem UISystem => uISystem;

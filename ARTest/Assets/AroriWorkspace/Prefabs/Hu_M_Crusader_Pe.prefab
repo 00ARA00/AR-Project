@@ -8206,9 +8206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 200
   maxHealth: 200
-  strengthAttribute: 6
-  dexterityAttribute: 6
-  intelligentAttribute: 6
+  strengthAttribute: 0
+  dexterityAttribute: 0
+  intelligentAttribute: 0
 --- !u!114 &4114817599307624760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77137,7 +77137,7 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: index
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77257,7 +77257,7 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: index
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77377,7 +77377,7 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: index
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}

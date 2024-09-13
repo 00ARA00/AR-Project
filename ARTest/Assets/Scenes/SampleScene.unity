@@ -966,6 +966,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 824449359}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1207374358 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9071437540843940091, guid: 65d230bf8c1746244a164b43f91c7681,
+    type: 3}
+  m_PrefabInstance: {fileID: 8168851926612322527}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71ece5f18cd4914eace278f13368a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1227882874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,10 +1124,11 @@ MonoBehaviour:
   spawnArenaButton: {fileID: 1236646979}
   startBattleButton: {fileID: 1232564952}
   playGameButton: {fileID: 1724864179}
-  takeDamageButton: {fileID: 12064104}
+  rollDicesButton: {fileID: 12064104}
   textInstructions: {fileID: 687783485}
   gameName: {fileID: 1270914582}
   skillsPanel: {fileID: 467756818}
+  statsWidget: {fileID: 1207374358}
 --- !u!114 &1227882885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2608,9 +2621,34 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1206618946795522834, guid: 65d230bf8c1746244a164b43f91c7681,
         type: 3}
+      propertyPath: maximumDiceRoll
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206618946795522834, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: minimumDiceRoll
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206618946795522834, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
       propertyPath: spawnInitializer
       value: 
       objectReference: {fileID: 1227882882}
+    - target: {fileID: 4549601755701632582, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -734.7693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549601755701632582, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -290
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549601755701632582, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 432
+      objectReference: {fileID: 0}
     - target: {fileID: 4726817559442945978, guid: 65d230bf8c1746244a164b43f91c7681,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2711,11 +2749,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185664629217080974, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_Name
+      value: RollDicesButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021924332919925902, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_Text
+      value: Roll Dices
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275545873181455671, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 135.6245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275545873181455671, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 91.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275545873181455671, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.513
+      objectReference: {fileID: 0}
     - target: {fileID: 6563959936188232270, guid: 65d230bf8c1746244a164b43f91c7681,
         type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9071437540843940091, guid: 65d230bf8c1746244a164b43f91c7681,
+        type: 3}
+      propertyPath: spawnInitializer
+      value: 
+      objectReference: {fileID: 1227882882}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

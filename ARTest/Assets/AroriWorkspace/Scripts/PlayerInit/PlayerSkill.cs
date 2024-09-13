@@ -91,7 +91,7 @@ public abstract class PlayerSkill : MonoBehaviour
 
     protected virtual void Initialize()
     {
-        enemyInitializer = playerInitializer.SpawnInitializer.ImageTracker.EnemyInitializer;
+        enemyInitializer = playerInitializer.SpawnInitializer.EnemyInitializer;
     }
 
     private void OnSkillButtonClick()

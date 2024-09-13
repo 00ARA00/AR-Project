@@ -20,4 +20,7 @@ public class SpawnResources : MonoBehaviour
     public GameObject SecondCharacter => secondCharacter;
     public GameObject Arena => arena;
     public GameObject PlaneMarker => planeMarker;
+
+
+    public System.Random Random = new System.Random();
 }
