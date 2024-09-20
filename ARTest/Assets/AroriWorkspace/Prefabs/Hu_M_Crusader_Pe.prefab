@@ -8140,6 +8140,7 @@ MonoBehaviour:
   animationController: {fileID: 335856466400011457}
   playerLocalStats: {fileID: 8246117052387334110}
   animationEventController: {fileID: 2800400424638162132}
+  enemyActions: {fileID: 0}
 --- !u!114 &5492306462618393411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8237,6 +8238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInitializer: {fileID: 1339776056863710377}
   animator: {fileID: 1440102201536021134}
+  idleAnimationName: Idle_WideArms
 --- !u!114 &2800400424638162132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77157,6 +77159,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
+      propertyPath: animationName
+      value: "\u0441rusader_attack"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
       propertyPath: playerInitializer
       value: 
       objectReference: {fileID: 1339776056863710377}
@@ -77174,6 +77181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: intelligenceRequirment
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: animationDelayModificator
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77277,6 +77289,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
+      propertyPath: animationName
+      value: "\u0441rusader_attack"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
       propertyPath: playerInitializer
       value: 
       objectReference: {fileID: 1339776056863710377}
@@ -77294,6 +77311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: intelligenceRequirment
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: animationDelayModificator
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77397,6 +77419,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
+      propertyPath: animationName
+      value: "\u0441rusader_attack"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
       propertyPath: playerInitializer
       value: 
       objectReference: {fileID: 1339776056863710377}
@@ -77414,6 +77441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: intelligenceRequirment
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: animationDelayModificator
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}

@@ -8,12 +8,15 @@ public abstract class PlayerSkill : MonoBehaviour
 {
     [SerializeField] protected PlayerInitializer playerInitializer;
 
-    [SerializeField] protected int index;
-    [SerializeField] protected string skillName;
-    [SerializeField] protected float strengthRequirment;
-    [SerializeField] protected float dexterityRequirment;
-    [SerializeField] protected float intelligenceRequirment;
-    [SerializeField] protected Sprite skillIcon;
+    [SerializeField] private int index;
+    [SerializeField] private float strengthRequirment;
+    [SerializeField] private float dexterityRequirment;
+    [SerializeField] private float intelligenceRequirment;
+    [SerializeField] private Sprite skillIcon;
+    [SerializeField] private bool isEnemySkill;
+    [SerializeField] private string animationName;
+    [SerializeField] private float animationDelayModificator;
+
 
     private Color _disableColor;
     private Color _enableColor;
@@ -21,18 +24,28 @@ public abstract class PlayerSkill : MonoBehaviour
     private float _dexterityAttribute;
     private float _intelligenceAttribute;
     private AnimationController _animationController;
+    private UISystem _uISystem;
     private SkillButton _skillButton;
+    private float _animationDelay;
 
     protected PlayerInitializer enemyInitializer;
 
     private PlayerLocalStats _playerLocalStats;
 
     private bool _isAvaible = true;
+    private float _totalCost;
 
+
+    public bool IsEnemySkill => isEnemySkill;
+    public float AnimationDelay => _animationDelay;
+    public string AnimationName => animationName;
     public bool IsAvaible => _isAvaible;
+    public float TotalCost => _totalCost;
 
     private void Awake()
     {
+        _totalCost = strengthRequirment + dexterityRequirment + intelligenceRequirment;
+
         _disableColor = new Color(150, 150, 150);
         _enableColor = new Color(255, 255, 255);
 
@@ -70,35 +83,52 @@ public abstract class PlayerSkill : MonoBehaviour
 
     private void OnImageTracked()
     {
-        _skillButton = playerInitializer.SpawnInitializer.UISystem.SkillsPanel.SkillButtons[index];
+        _animationDelay = _animationController.GetAnimationLength(animationName, animationDelayModificator);
 
-        InizializeButtonUI();
-        Initialize();
+        if (!isEnemySkill) { InizializeButtonUI(); }
+
+        InitializeEnemy();
         AttributesCheck();
-
-        _skillButton.OnSkillButtonClick -= OnSkillButtonClick;
-        _skillButton.OnSkillButtonClick += OnSkillButtonClick;
     }
 
     private void InizializeButtonUI()
     {
+        _uISystem = playerInitializer.SpawnInitializer.UISystem;
+
+        _skillButton = playerInitializer.SpawnInitializer.UISystem.SkillsPanel.SkillButtons[index];
+
         _skillButton.StrengthUIText.text = strengthRequirment.ToString();
         _skillButton.DexterityUIText.text = dexterityRequirment.ToString();
         _skillButton.IntelligenceUIText.text = intelligenceRequirment.ToString();
 
         _skillButton.ChangeIcon(skillIcon);
+
+        _skillButton.OnSkillButtonClick -= OnSkillButtonClick;
+        _skillButton.OnSkillButtonClick += OnSkillButtonClick;
     }
 
-    protected virtual void Initialize()
+    protected virtual void InitializeEnemy()
     {
-        enemyInitializer = playerInitializer.SpawnInitializer.EnemyInitializer;
+        if (!isEnemySkill) { enemyInitializer = playerInitializer.SpawnInitializer.EnemyInitializer; }
+        if (isEnemySkill) { enemyInitializer = playerInitializer.SpawnInitializer.HeroInitializer; }
+    }
+
+    public void ActivateSkill()
+    {
+        if (!isEnemySkill) { DisableSkillButtons(); }
+        
+        _animationController.SkillAnimation(this);
+        _playerLocalStats.SetAttributes(_strengtAttribute - strengthRequirment, _dexterityAttribute - dexterityRequirment, _intelligenceAttribute - intelligenceRequirment);
+    }
+
+    private void DisableSkillButtons()
+    {
+        _uISystem.DisableSkillButtons();
     }
 
     private void OnSkillButtonClick()
     {
-        _animationController.SkillAnimation(skillName);
-
-        _playerLocalStats.SetAttributes(_strengtAttribute - strengthRequirment, _dexterityAttribute - dexterityRequirment, _intelligenceAttribute - intelligenceRequirment);
+        ActivateSkill();
     }
 
     private void OnTriggerSkillEffect()
@@ -114,7 +144,7 @@ public abstract class PlayerSkill : MonoBehaviour
         {
             if (_isAvaible)
             {
-                _skillButton.DisableSkill();
+                if (!isEnemySkill) { _skillButton.DisableSkill(); }
                 _isAvaible = false;
             }
         }
@@ -122,7 +152,7 @@ public abstract class PlayerSkill : MonoBehaviour
         {
             if (!_isAvaible)
             {
-                _skillButton.EnableSkill();
+                if (!isEnemySkill) { _skillButton.EnableSkill(); }
                 _isAvaible = true;
             }
         }

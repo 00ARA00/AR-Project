@@ -11,7 +11,9 @@ public class SpawnInitializer : MonoBehaviour
     [SerializeField] private RaycastSystem raycastSystem;
     [SerializeField] private SpawnResources spawnResources;
     [SerializeField] private ARTrackedImageManager aRTrackedImagesManager;
+    [SerializeField] private TurnBasedSystem _turnBasedSystem;
 
+    public TurnBasedSystem TurnBasedSystem => _turnBasedSystem;
     public PlayerInitializer HeroInitializer => imageTracker.HeroInitializer;
     public PlayerInitializer EnemyInitializer => imageTracker.EnemyInitializer;
     public ARTrackedImageManager ARTrackedImageManager => aRTrackedImagesManager;

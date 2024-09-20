@@ -12,11 +12,13 @@ public class PlayerInitializer : MonoBehaviour
     [SerializeField] private AnimationController animationController;
     [SerializeField] private PlayerLocalStats playerLocalStats;
     [SerializeField] private AnimationEventController animationEventController;
+    [SerializeField] private EnemyActions enemyActions;
 
     private SpawnInitializer _spawnInitializer;
 
     public event Action OnInitializesConnection;
 
+    public EnemyActions EnemyActions => enemyActions;
     public AnimationEventController AnimationEventController => animationEventController;
     public AnimationController AnimationController => animationController;
     public PlayerStrengthAttribute Strength => playerStrengthAttribute;
