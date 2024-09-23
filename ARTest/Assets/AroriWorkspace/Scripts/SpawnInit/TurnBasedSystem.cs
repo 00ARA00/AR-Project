@@ -7,7 +7,9 @@ public enum Turn
 {
     PlayerTurn,
     EnemyTurn,
-    NewRound
+    NewRound,
+    EndGameWin,
+    EndGameLose
 }
 
 public class TurnBasedSystem : MonoBehaviour
@@ -33,6 +35,18 @@ public class TurnBasedSystem : MonoBehaviour
     {
         _heroInitializaer = spawnInitializer.HeroInitializer;
         _enemyInitializaer = spawnInitializer.EnemyInitializer;
+
+        _heroInitializaer.Health.OnDeath -= OnDeath;
+        _heroInitializaer.Health.OnDeath += OnDeath;
+
+        _enemyInitializaer.Health.OnDeath -= OnDeath;
+        _enemyInitializaer.Health.OnDeath += OnDeath;
+    }
+
+    private void OnDeath()
+    {
+        if (_heroInitializaer.Health.IsDead) { ChangeTurn(Turn.EndGameLose); }
+        if (_enemyInitializaer.Health.IsDead) { ChangeTurn(Turn.EndGameWin); }
     }
 
     private void PlayerTurn()
@@ -57,6 +71,20 @@ public class TurnBasedSystem : MonoBehaviour
         _uISystem.EnableStatsRollLayout();
     }
 
+    private void EndGameWin()
+    {
+        _uISystem.DisableAllUI();
+        _uISystem.EnableWinLayout();
+        _heroInitializaer.AnimationController.PlayWin();
+    }
+
+    private void EndGameLose()
+    {
+        _uISystem.DisableAllUI();
+        _uISystem.EnableLoseLayout();
+        _enemyInitializaer.AnimationController.PlayWin();
+    }
+
     public void ChangeTurn(Turn turn)
     {
         RealizeTurn(turn);
@@ -76,6 +104,14 @@ public class TurnBasedSystem : MonoBehaviour
 
             case Turn.NewRound:
                 StartNewRound();
+                break;
+
+            case Turn.EndGameWin:
+                EndGameWin();
+                break;
+
+            case Turn.EndGameLose:
+                EndGameLose();
                 break;
         }
     }

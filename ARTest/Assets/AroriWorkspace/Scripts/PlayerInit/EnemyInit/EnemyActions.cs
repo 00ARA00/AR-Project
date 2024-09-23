@@ -64,6 +64,9 @@ public class EnemyActions : MonoBehaviour
 
     public void RealizeEnemyTurn()
     {
+        if (_spawnInitializer.HeroInitializer.Health.IsDead)
+            return;
+
         for (int i = 0; i < sortedEnemySkills.Length; i++)
         {
             if (!sortedEnemySkills[sortedEnemySkills.Length - 1].IsAvaible)

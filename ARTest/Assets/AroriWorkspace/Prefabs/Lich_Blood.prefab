@@ -2609,7 +2609,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInitializer: {fileID: 2937504338432570636}
   animator: {fileID: 1811807230274817154}
-  idleAnimationName: idle_Lich
 --- !u!114 &8639054101063635442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2636,8 +2635,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyInitializer: {fileID: 2937504338432570636}
   enemySkills:
-  - {fileID: 6029249123444242725}
-  - {fileID: 1668017287297436196}
+  - {fileID: 928934987066930003}
+  - {fileID: 739065677545337158}
   turn: 2
 --- !u!1 &8923074337695744473
 GameObject:
@@ -2845,7 +2844,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1668017287297436196}
+      addedObject: {fileID: 739065677545337158}
   m_SourcePrefab: {fileID: 100100000, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
 --- !u!1 &2917339546248133050 stripped
 GameObject:
@@ -2853,7 +2852,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2325318922354640476}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1668017287297436196
+--- !u!114 &739065677545337158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2862,18 +2861,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2917339546248133050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1819555e911d4c488f05c995eeb857d, type: 3}
+  m_Script: {fileID: 11500000, guid: ac3bf6396c284834f94251add0a35590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerInitializer: {fileID: 2937504338432570636}
   index: 0
-  animationName: lich_attack2
   strengthRequirment: 3
-  dexterityRequirment: 3
-  intelligenceRequirment: 3
+  dexterityRequirment: 0
+  intelligenceRequirment: 0
   skillIcon: {fileID: 0}
   isEnemySkill: 1
-  damage: 10
+  animationName: lich_attack2
+  animationDelayModificator: 0
+  skillDamage: 25
 --- !u!4 &7828518908614996432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
@@ -2951,7 +2951,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6029249123444242725}
+      addedObject: {fileID: 928934987066930003}
   m_SourcePrefab: {fileID: 100100000, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
 --- !u!4 &17548809061109142 stripped
 Transform:
@@ -2965,7 +2965,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5539170022931053082}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6029249123444242725
+--- !u!114 &928934987066930003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2974,15 +2974,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4964756968581154300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db89f0ba4821d7742abeb08ebc12f5d8, type: 3}
+  m_Script: {fileID: 11500000, guid: ac3bf6396c284834f94251add0a35590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerInitializer: {fileID: 2937504338432570636}
   index: 0
-  animationName: lich_attack
-  strengthRequirment: 2
-  dexterityRequirment: 2
-  intelligenceRequirment: 2
+  strengthRequirment: 1
+  dexterityRequirment: 0
+  intelligenceRequirment: 0
   skillIcon: {fileID: 0}
   isEnemySkill: 1
+  animationName: lich_attack
+  animationDelayModificator: 0
   skillDamage: 10

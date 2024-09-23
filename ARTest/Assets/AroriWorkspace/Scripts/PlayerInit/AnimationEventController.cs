@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class AnimationEventController : MonoBehaviour
 {
-    public event Action OnTriggerSkillEffect;
+    public event Action<string> OnTriggerSkillEffect;
 
-    public void Trigger()
+    public void Trigger(string skillName)
     {
-        OnTriggerSkillEffect?.Invoke();
+        OnTriggerSkillEffect?.Invoke(skillName);
     }
 }

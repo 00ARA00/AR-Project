@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private PlayerInitializer playerInitializer;
 
     public event Action OnDamageTaken;
+    public event Action OnDeath;
 
     public float Health { get; private set; }
     public float MaxHealth { get; private set; }
@@ -24,5 +25,13 @@ public class PlayerHealth : MonoBehaviour
         Health -= damage;
 
         OnDamageTaken?.Invoke();
+        if (Health <= 0)
+            Death();
+    }
+
+    private void Death()
+    {
+        IsDead = true;
+        OnDeath?.Invoke();
     }
 }

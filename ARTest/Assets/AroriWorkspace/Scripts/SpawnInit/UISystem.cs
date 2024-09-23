@@ -13,6 +13,8 @@ public class UISystem : MonoBehaviour
     [SerializeField] private Button playGameButton;
     [SerializeField] private Button rollStatsButton;
     [SerializeField] private Button endTurnButton;
+    [SerializeField] private TextMeshProUGUI textWin;
+    [SerializeField] private TextMeshProUGUI textLose;
     [SerializeField] private TextMeshProUGUI textInstructions;
     [SerializeField] private TextMeshProUGUI gameName;
     [SerializeField] private SkillsPanel skillsPanel;
@@ -37,6 +39,8 @@ public class UISystem : MonoBehaviour
 
     public void DisableAllUI()
     {
+        textWin.gameObject.SetActive(false);
+        textLose.gameObject.SetActive(false);
         statsWidget.gameObject.SetActive(false);
         rollStatsButton.gameObject.SetActive(false);
         spawnArenaButton.gameObject.SetActive(false);
@@ -89,6 +93,15 @@ public class UISystem : MonoBehaviour
         skillsPanel.gameObject.SetActive(true);
     }
 
+    public void EnableLoseLayout()
+    {
+        textLose.gameObject.SetActive(true);
+    }
+
+    public void EnableWinLayout()
+    {
+        textWin.gameObject.SetActive(true);
+    }
 
     public void ChangeInstructionsText(string text)
     {

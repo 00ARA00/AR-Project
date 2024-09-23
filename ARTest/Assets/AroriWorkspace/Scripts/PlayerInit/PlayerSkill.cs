@@ -131,9 +131,10 @@ public abstract class PlayerSkill : MonoBehaviour
         ActivateSkill();
     }
 
-    private void OnTriggerSkillEffect()
+    private void OnTriggerSkillEffect(string skillName)
     {
-        SkillEffect();
+        if (animationName == skillName)
+            SkillEffect();
     }
 
     protected abstract void SkillEffect();

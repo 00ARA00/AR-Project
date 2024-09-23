@@ -8238,7 +8238,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInitializer: {fileID: 1339776056863710377}
   animator: {fileID: 1440102201536021134}
-  idleAnimationName: Idle_WideArms
 --- !u!114 &2800400424638162132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45160,6 +45159,8 @@ Transform:
   - {fileID: 8482634336541463808}
   - {fileID: 3052162996117562659}
   - {fileID: 3620428618591489503}
+  - {fileID: 5598519494157450088}
+  - {fileID: 859663968007587090}
   m_Father: {fileID: 4052927377689507287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5456839635024704966
@@ -77118,6 +77119,169 @@ Transform:
   - {fileID: 6483373193802949304}
   m_Father: {fileID: 5602260877999046081}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &94754350463126756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6999517091147199545}
+    m_Modifications:
+    - target: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_Name
+      value: Skill (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: index
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: skillIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ec1c38865f239245b0bca283e3e287b,
+        type: 3}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: skillName
+      value: "\u0441rusader_attack"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: skillDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: animationName
+      value: crusader_skill4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: playerInitializer
+      value: 
+      objectReference: {fileID: 1339776056863710377}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: strengthRequirment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: dexterityRequirment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: intelligenceRequirment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: animationDelayModificator
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6978329586765051430}
+  m_SourcePrefab: {fileID: 100100000, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
+--- !u!1 &678332107770557186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+    type: 3}
+  m_PrefabInstance: {fileID: 94754350463126756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6978329586765051430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678332107770557186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3bf6396c284834f94251add0a35590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 1339776056863710377}
+  index: 3
+  strengthRequirment: 3
+  dexterityRequirment: 2
+  intelligenceRequirment: 1
+  skillIcon: {fileID: 21300000, guid: 6ec1c38865f239245b0bca283e3e287b, type: 3}
+  isEnemySkill: 0
+  animationName: crusader_skill4
+  animationDelayModificator: 0
+  skillDamage: 20
+--- !u!4 &5598519494157450088 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+    type: 3}
+  m_PrefabInstance: {fileID: 94754350463126756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4132355819587527308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77145,7 +77309,7 @@ PrefabInstance:
         type: 3}
       propertyPath: skillIcon
       value: 
-      objectReference: {fileID: 21300000, guid: fb7de4e9caab0d74ebc5c966305fd0a3,
+      objectReference: {fileID: 21300000, guid: a5654dd6b02b9744b9917347ae678efb,
         type: 3}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77155,12 +77319,12 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: skillDamage
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: animationName
-      value: "\u0441rusader_attack"
+      value: crusader_skill1
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77170,7 +77334,7 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: strengthRequirment
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77185,7 +77349,7 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: animationDelayModificator
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77248,6 +77412,169 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4132355819587527308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5120432899423089310
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6999517091147199545}
+    m_Modifications:
+    - target: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_Name
+      value: Skill (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: index
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: skillIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 39cdbbf76217fa441b55d2b1d59ca770,
+        type: 3}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: skillName
+      value: "\u0441rusader_attack"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: skillDamage
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: animationName
+      value: crusader_skill5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: playerInitializer
+      value: 
+      objectReference: {fileID: 1339776056863710377}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: strengthRequirment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: dexterityRequirment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: intelligenceRequirment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: animationDelayModificator
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8903970621064747904}
+  m_SourcePrefab: {fileID: 100100000, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
+--- !u!4 &859663968007587090 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+    type: 3}
+  m_PrefabInstance: {fileID: 5120432899423089310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5707792969415183736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+    type: 3}
+  m_PrefabInstance: {fileID: 5120432899423089310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8903970621064747904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707792969415183736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3bf6396c284834f94251add0a35590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 1339776056863710377}
+  index: 4
+  strengthRequirment: 3
+  dexterityRequirment: 3
+  intelligenceRequirment: 1
+  skillIcon: {fileID: 21300000, guid: 39cdbbf76217fa441b55d2b1d59ca770, type: 3}
+  isEnemySkill: 0
+  animationName: crusader_skill5
+  animationDelayModificator: 0
+  skillDamage: 27
 --- !u!1001 &7402294185894630063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77275,7 +77602,7 @@ PrefabInstance:
         type: 3}
       propertyPath: skillIcon
       value: 
-      objectReference: {fileID: 21300000, guid: fb7de4e9caab0d74ebc5c966305fd0a3,
+      objectReference: {fileID: 21300000, guid: 212daeefa6bd2324faa2226812850ee8,
         type: 3}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77285,12 +77612,12 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: skillDamage
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: animationName
-      value: "\u0441rusader_attack"
+      value: crusader_skill2
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77300,12 +77627,12 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: strengthRequirment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: dexterityRequirment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77315,7 +77642,7 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: animationDelayModificator
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77367,10 +77694,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 56574568692419790}
   m_SourcePrefab: {fileID: 100100000, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
 --- !u!4 &3052162996117562659 stripped
 Transform:
@@ -77378,6 +77710,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7402294185894630063}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7963334696326180169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+    type: 3}
+  m_PrefabInstance: {fileID: 7402294185894630063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &56574568692419790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7963334696326180169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3bf6396c284834f94251add0a35590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 1339776056863710377}
+  index: 1
+  strengthRequirment: 1
+  dexterityRequirment: 1
+  intelligenceRequirment: 2
+  skillIcon: {fileID: 21300000, guid: 212daeefa6bd2324faa2226812850ee8, type: 3}
+  isEnemySkill: 0
+  animationName: crusader_skill2
+  animationDelayModificator: 0
+  skillDamage: 10
 --- !u!1001 &9142049823301597779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77405,7 +77765,7 @@ PrefabInstance:
         type: 3}
       propertyPath: skillIcon
       value: 
-      objectReference: {fileID: 21300000, guid: fb7de4e9caab0d74ebc5c966305fd0a3,
+      objectReference: {fileID: 21300000, guid: b7e00b385cecd2e4586066c414776e5b,
         type: 3}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77415,12 +77775,17 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: skillDamage
-      value: 10
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      propertyPath: isEnemySkill
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: animationName
-      value: "\u0441rusader_attack"
+      value: crusader_skill3
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77430,22 +77795,22 @@ PrefabInstance:
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: strengthRequirment
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: dexterityRequirment
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: intelligenceRequirment
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
       propertyPath: animationDelayModificator
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5539793976415860620, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
         type: 3}
@@ -77497,10 +77862,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2078160462904010704, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6841871940489753589}
   m_SourcePrefab: {fileID: 100100000, guid: deb3a0aebe0109945a4d6bfc7a4ad819, type: 3}
 --- !u!4 &3620428618591489503 stripped
 Transform:
@@ -77508,3 +77878,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9142049823301597779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8567636502764357045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 592586057415983078, guid: deb3a0aebe0109945a4d6bfc7a4ad819,
+    type: 3}
+  m_PrefabInstance: {fileID: 9142049823301597779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6841871940489753589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8567636502764357045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3bf6396c284834f94251add0a35590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInitializer: {fileID: 1339776056863710377}
+  index: 2
+  strengthRequirment: 2
+  dexterityRequirment: 2
+  intelligenceRequirment: 1
+  skillIcon: {fileID: 21300000, guid: b7e00b385cecd2e4586066c414776e5b, type: 3}
+  isEnemySkill: 0
+  animationName: crusader_skill3
+  animationDelayModificator: 0
+  skillDamage: 15

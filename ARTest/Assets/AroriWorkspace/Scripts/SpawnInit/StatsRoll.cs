@@ -7,8 +7,12 @@ public class StatsRoll : MonoBehaviour
 {
     [SerializeField] private SpawnInitializer spawnInitializer;
 
-    [SerializeField] private int minimumDiceRoll;
-    [SerializeField] private int maximumDiceRoll;
+    [SerializeField] private int minimumStrength;
+    [SerializeField] private int maximumStrength;
+    [SerializeField] private int minimumDexterity;
+    [SerializeField] private int maximumDexterity;
+    [SerializeField] private int minimumIntelligence;
+    [SerializeField] private int maximumIntelligence;
 
     [SerializeField] private Turn turn;
     [SerializeField] private bool enemyRoll;
@@ -68,9 +72,9 @@ public class StatsRoll : MonoBehaviour
 
     private void RandomizeStats()
     {
-        float strenght = _random.Next(minimumDiceRoll, maximumDiceRoll);
-        float dexterity = _random.Next(minimumDiceRoll, maximumDiceRoll);
-        float intelligence = _random.Next(minimumDiceRoll, maximumDiceRoll);
+        float strenght = _random.Next(minimumStrength, maximumStrength);
+        float dexterity = _random.Next(minimumDexterity, maximumDexterity);
+        float intelligence = _random.Next(minimumIntelligence, maximumIntelligence);
 
         _playerLocalStats.SetAttributes(strenght, dexterity, intelligence);
     }

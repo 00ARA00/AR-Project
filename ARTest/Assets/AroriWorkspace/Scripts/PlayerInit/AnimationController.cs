@@ -7,7 +7,6 @@ public class AnimationController : MonoBehaviour
 {
     [SerializeField] private PlayerInitializer playerInitializer;
     [SerializeField] private Animator animator;
-    [SerializeField] private string idleAnimationName;
 
     private EnemyActions _enemyActions;
     private UISystem _uISystem;
@@ -19,10 +18,21 @@ public class AnimationController : MonoBehaviour
         {
             _enemyActions = playerInitializer.EnemyActions;
         }
+        playerInitializer.Health.OnDamageTaken -= OnDamageTaken;
+        playerInitializer.Health.OnDamageTaken += OnDamageTaken;
+
+        playerInitializer.Health.OnDeath -= OnDeath;
+        playerInitializer.Health.OnDeath += OnDeath;
 
         playerInitializer.OnInitializesConnection -= OnInitializesConnection;
         playerInitializer.OnInitializesConnection += OnInitializesConnection;
     }
+
+    private void OnDeath()
+    {
+        PlayDeathAnimation();
+    }
+
     private void OnInitializesConnection()
     {
         playerInitializer.SpawnInitializer.ImageTracker.OnImageTracked -= OnImageTracked;
@@ -32,6 +42,11 @@ public class AnimationController : MonoBehaviour
     private void OnImageTracked()
     {
         _uISystem = playerInitializer.SpawnInitializer.UISystem;
+    }
+
+    private void OnDamageTaken()
+    {
+        PlayTakeDamageImpactAnimation();
     }
 
     public void SkillAnimation(PlayerSkill playerSkill)
@@ -71,5 +86,20 @@ public class AnimationController : MonoBehaviour
         }
 
         return 0f;
+    }
+
+    private void PlayTakeDamageImpactAnimation()
+    {
+        animator.Play("take_damage_impact");
+    }
+
+    private void PlayDeathAnimation()
+    {
+        animator.Play("death");
+    }
+
+    public void PlayWin()
+    {
+        animator.Play("victory");
     }
 }

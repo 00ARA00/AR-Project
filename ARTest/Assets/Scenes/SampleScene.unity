@@ -1140,6 +1140,8 @@ MonoBehaviour:
   playGameButton: {fileID: 1724864179}
   rollStatsButton: {fileID: 12064104}
   endTurnButton: {fileID: 636231377}
+  textWin: {fileID: 2086446375}
+  textLose: {fileID: 1875207744}
   textInstructions: {fileID: 687783485}
   gameName: {fileID: 1270914582}
   skillsPanel: {fileID: 467756818}
@@ -1984,6 +1986,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1875207744 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 507184833793815096, guid: 65d230bf8c1746244a164b43f91c7681,
+    type: 3}
+  m_PrefabInstance: {fileID: 8168851926612322527}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1967004607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,6 +2654,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
+--- !u!114 &2086446375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9082478060277005806, guid: 65d230bf8c1746244a164b43f91c7681,
+    type: 3}
+  m_PrefabInstance: {fileID: 8168851926612322527}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8168851926612322527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2650,44 +2676,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1206618946795522834, guid: 65d230bf8c1746244a164b43f91c7681,
         type: 3}
-      propertyPath: minimumDiceRoll
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1206618946795522834, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
       propertyPath: spawnInitializer
       value: 
       objectReference: {fileID: 1227882882}
     - target: {fileID: 3719617456283389612, guid: 65d230bf8c1746244a164b43f91c7681,
         type: 3}
-      propertyPath: turn
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3719617456283389612, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
-      propertyPath: maximumDiceRoll
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3719617456283389612, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
-      propertyPath: minimumDiceRoll
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3719617456283389612, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
       propertyPath: spawnInitializer
       value: 
       objectReference: {fileID: 1227882882}
-    - target: {fileID: 4171337253442216618, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 531
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234279524912523516, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4726817559442945978, guid: 65d230bf8c1746244a164b43f91c7681,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2787,16 +2783,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5467375855139112426, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6021924332919925902, guid: 65d230bf8c1746244a164b43f91c7681,
-        type: 3}
-      propertyPath: m_Text
-      value: Roll Stats
       objectReference: {fileID: 0}
     - target: {fileID: 6563959936188232270, guid: 65d230bf8c1746244a164b43f91c7681,
         type: 3}
