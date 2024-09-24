@@ -13,6 +13,7 @@ public class UISystem : MonoBehaviour
     [SerializeField] private Button playGameButton;
     [SerializeField] private Button rollStatsButton;
     [SerializeField] private Button endTurnButton;
+    [SerializeField] private Button autoScanButton;
     [SerializeField] private TextMeshProUGUI textWin;
     [SerializeField] private TextMeshProUGUI textLose;
     [SerializeField] private TextMeshProUGUI textInstructions;
@@ -22,6 +23,7 @@ public class UISystem : MonoBehaviour
 
     public SkillsPanel SkillsPanel => skillsPanel;
 
+    public event Action OnAutoScanBattonClick;
     public event Action OnPlayGameButtonClick;
     public event Action OnSpawnArenaButtonClick;
     public event Action OnStartBattleButtonClick;
@@ -30,6 +32,7 @@ public class UISystem : MonoBehaviour
 
     private void Awake()
     {
+        autoScanButton.onClick?.AddListener(() => OnAutoScanBattonClick?.Invoke());
         endTurnButton.onClick?.AddListener(() => OnEndTurnButtonClick?.Invoke());
         playGameButton.onClick?.AddListener(() => OnPlayGameButtonClick?.Invoke());
         spawnArenaButton.onClick?.AddListener(() => OnSpawnArenaButtonClick?.Invoke());
@@ -39,6 +42,7 @@ public class UISystem : MonoBehaviour
 
     public void DisableAllUI()
     {
+        autoScanButton.gameObject.SetActive(false);
         textWin.gameObject.SetActive(false);
         textLose.gameObject.SetActive(false);
         statsWidget.gameObject.SetActive(false);
@@ -61,6 +65,7 @@ public class UISystem : MonoBehaviour
     public void EnableImageTrackerLayout()
     {
         textInstructions.gameObject.SetActive(true);
+        autoScanButton.gameObject.SetActive(true);
     }
 
     public void EnableArenaCreatorLayout()

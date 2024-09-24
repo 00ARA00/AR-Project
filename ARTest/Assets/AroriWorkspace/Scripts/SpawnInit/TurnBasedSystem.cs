@@ -64,9 +64,6 @@ public class TurnBasedSystem : MonoBehaviour
 
     private void StartNewRound()
     {
-        _heroInitializaer.Stats.SetAttributes(0,0,0);
-        _enemyInitializaer.Stats.SetAttributes(0,0,0);
-
         _uISystem.DisableAllUI();
         _uISystem.EnableStatsRollLayout();
     }
@@ -75,14 +72,14 @@ public class TurnBasedSystem : MonoBehaviour
     {
         _uISystem.DisableAllUI();
         _uISystem.EnableWinLayout();
-        _heroInitializaer.AnimationController.PlayWin();
+        _heroInitializaer.AnimationController.PlayWinAnimation();
     }
 
     private void EndGameLose()
     {
         _uISystem.DisableAllUI();
         _uISystem.EnableLoseLayout();
-        _enemyInitializaer.AnimationController.PlayWin();
+        _enemyInitializaer.AnimationController.PlayWinAnimation();
     }
 
     public void ChangeTurn(Turn turn)

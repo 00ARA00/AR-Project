@@ -28,6 +28,15 @@ public class PlayerLocalStats : MonoBehaviour
         return (strength, dexterity, intelligent);
     }
 
+    public void AddAttributes(float strength, float dexterity, float intelligent)
+    {
+        strengthAttribute += strength;
+        dexterityAttribute += dexterity;
+        intelligentAttribute += intelligent;
+
+        OnAttributesChanged?.Invoke();
+    }
+
     public void SetAttributes(float strength, float dexterity, float intelligent)
     {
         strengthAttribute = strength;

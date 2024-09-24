@@ -76,6 +76,10 @@ public class StatsRoll : MonoBehaviour
         float dexterity = _random.Next(minimumDexterity, maximumDexterity);
         float intelligence = _random.Next(minimumIntelligence, maximumIntelligence);
 
-        _playerLocalStats.SetAttributes(strenght, dexterity, intelligence);
+        if (enemyRoll)
+            _playerLocalStats.SetAttributes(strenght, dexterity, intelligence);
+
+        if (!enemyRoll)
+            _playerLocalStats.AddAttributes(strenght, dexterity, intelligence);
     }
 }

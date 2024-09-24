@@ -98,7 +98,7 @@ public class AnimationController : MonoBehaviour
         animator.Play("death");
     }
 
-    public void PlayWin()
+    public void PlayWinAnimation()
     {
         animator.Play("victory");
     }

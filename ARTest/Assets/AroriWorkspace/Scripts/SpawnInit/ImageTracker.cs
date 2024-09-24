@@ -37,6 +37,10 @@ public class ImageTracker : MonoBehaviour
 
     private bool _heroIsScaned;
 
+    private string _heroImageName = "Hu_M_Crusader_Pe";
+    private string _enemyImageName = "Lich_Blood";
+
+
     private void Awake()
     {
         _aRTrackedImagesManager = spawnInitializer.ARTrackedImageManager;
@@ -45,6 +49,7 @@ public class ImageTracker : MonoBehaviour
         _heroList = spawnInitializer.SpawnResources.HeroList;
         _enemyList = spawnInitializer.SpawnResources.EnemyList;
         _uISystem = spawnInitializer.UISystem;
+
 
         _uISystem.OnPlayGameButtonClick -= OnPlayGameButtonClick;
         _uISystem.OnPlayGameButtonClick += OnPlayGameButtonClick;
@@ -89,6 +94,15 @@ public class ImageTracker : MonoBehaviour
         }
     }
 
+    private void AutoScan()
+    {
+        _heroInitializer = SpawnCharacter(_heroImageName, _firstCharacterTransform);
+        _enemyInitializer = SpawnCharacter(_enemyImageName, _secondCharacterTransform);
+
+        OnImageTracked?.Invoke();
+        _aRTrackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
+    }
+
     private void OnPlayGameButtonClick()
     {
         _aRTrackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
@@ -96,6 +110,14 @@ public class ImageTracker : MonoBehaviour
 
         _uISystem.ChangeInstructionsText("Please track your Hero.");
         _uISystem.EnableImageTrackerLayout();
+
+        _uISystem.OnAutoScanBattonClick -= OnAutoScanBattonClick;
+        _uISystem.OnAutoScanBattonClick += OnAutoScanBattonClick;
+    }
+
+    private void OnAutoScanBattonClick()
+    {
+        AutoScan();
     }
 
     private PlayerInitializer SpawnCharacter(string imageName, Transform spawnPoint)
