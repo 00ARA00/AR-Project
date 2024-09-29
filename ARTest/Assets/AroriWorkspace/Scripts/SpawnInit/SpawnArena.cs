@@ -1,4 +1,3 @@
-using Gameplay.Systems.Creators;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -34,7 +33,7 @@ public class SpawnArena : MonoBehaviour
         SpawnArenaOnMarker();
     }
 
-    void SpawnArenaOnMarker()
+    private void SpawnArenaOnMarker()
     {
         _raycastHit = _raycastSystem.GetRaycastHit();
         if (_raycastHit == null)
@@ -43,5 +42,4 @@ public class SpawnArena : MonoBehaviour
         _arena.transform.position = _raycastHit;
         _arena.SetActive(true);
     }
-
 }

@@ -14,10 +14,11 @@ public class UISystem : MonoBehaviour
     [SerializeField] private Button rollStatsButton;
     [SerializeField] private Button endTurnButton;
     [SerializeField] private Button autoScanButton;
-    [SerializeField] private TextMeshProUGUI textWin;
-    [SerializeField] private TextMeshProUGUI textLose;
+    [SerializeField] private GameObject textWin;
+    [SerializeField] private GameObject textLose;
+    [SerializeField] private GameObject gameName;
+    [SerializeField] private GameObject instructions;
     [SerializeField] private TextMeshProUGUI textInstructions;
-    [SerializeField] private TextMeshProUGUI gameName;
     [SerializeField] private SkillsPanel skillsPanel;
     [SerializeField] private StatsWidget statsWidget;
 
@@ -43,90 +44,98 @@ public class UISystem : MonoBehaviour
     public void DisableAllUI()
     {
         autoScanButton.gameObject.SetActive(false);
-        textWin.gameObject.SetActive(false);
-        textLose.gameObject.SetActive(false);
+        textWin.SetActive(false);
+        textLose.SetActive(false);
         statsWidget.gameObject.SetActive(false);
         rollStatsButton.gameObject.SetActive(false);
         spawnArenaButton.gameObject.SetActive(false);
         startBattleButton.gameObject.SetActive(false);
         playGameButton.gameObject.SetActive(false);
         endTurnButton.gameObject.SetActive(false);
-        textInstructions.gameObject.SetActive(false);
-        gameName.gameObject.SetActive(false);
+        instructions.SetActive(false);
+        gameName.SetActive(false);
         skillsPanel.gameObject.SetActive(false);
     }
 
     public void EnablePlayLayout()
     {
-        gameName.gameObject.SetActive(true);
+        gameName.SetActive(true);
         playGameButton.gameObject.SetActive(true);
     }
 
     public void EnableImageTrackerLayout()
     {
-        textInstructions.gameObject.SetActive(true);
+        instructions.SetActive(true);
         autoScanButton.gameObject.SetActive(true);
     }
 
     public void EnableArenaCreatorLayout()
     {
-        textInstructions.gameObject.SetActive(true);
+        instructions.SetActive(true);
         spawnArenaButton.gameObject.SetActive(true);
+        ChangeInstructionsText("Choose place to create Arena");
     }
 
     public void EnableBattleStarterLayout()
     {
-        textInstructions.gameObject.SetActive(true);
+        instructions.SetActive(true);
         startBattleButton.gameObject.SetActive(true);
+        ChangeInstructionsText("Ready to start battle?");
     }
     public void EnableStatsRollLayout()
     {
+        instructions.SetActive(true);
         statsWidget.gameObject.SetActive(true);
         skillsPanel.gameObject.SetActive(true);
         rollStatsButton.gameObject.SetActive(true);
+        ChangeInstructionsText("Your turn");
     }
 
     public void EnableBattleLayout()
     {
+        instructions.SetActive(true);
         statsWidget.gameObject.SetActive(true);
         skillsPanel.gameObject.SetActive(true);
         endTurnButton.gameObject.SetActive(true);
+        ChangeInstructionsText("Your turn");
     }
 
     public void EnableEnemyTurnLyout()
     {
+        instructions.SetActive(true);
         skillsPanel.gameObject.SetActive(true);
+        ChangeInstructionsText("Enemy's turn");
     }
 
     public void EnableLoseLayout()
     {
-        textLose.gameObject.SetActive(true);
+        textLose.SetActive(true);
     }
 
     public void EnableWinLayout()
     {
-        textWin.gameObject.SetActive(true);
+        textWin.SetActive(true);
     }
 
     public void ChangeInstructionsText(string text)
     {
-        textInstructions.gameObject.SetActive(true);
+        instructions.SetActive(true);
         textInstructions.text = text;
     }
 
-    public void DisableSkillButtons()
+    public void DisableAllSkillButtons()
     {
         for (int i = 0;i < skillsPanel.SkillButtons.Length; i++)
         {
-            skillsPanel.SkillButtons[i].ButtonSkill.interactable = false;
+            skillsPanel.SkillButtons[i].DisableSkillButton();
         }
     }
 
-    public void EnableSkillButtons()
+    public void EnableAllSkillButtons()
     {
         for (int i = 0; i < skillsPanel.SkillButtons.Length; i++)
         {
-            skillsPanel.SkillButtons[i].ButtonSkill.interactable = true;
+            skillsPanel.SkillButtons[i].EnableSkillButton();
         }
     }
 }

@@ -20,7 +20,6 @@ public class SkillButton : MonoBehaviour
     public TextMeshProUGUI DexterityUIText => dexterityUIText;
     public TextMeshProUGUI IntelligenceUIText => intelligenceUIText;
 
-
     private void Awake()
     {
         buttonSkill.onClick?.AddListener(() => OnSkillButtonClick?.Invoke());
@@ -31,19 +30,13 @@ public class SkillButton : MonoBehaviour
         this.skillIcon.sprite = skillIcon;
     }
 
-    public void DisableSkill()
+    public void DisableSkillButton()
     {
-        buttonSkill.gameObject.SetActive(false);
-        Color newColor = skillIcon.color;
-        newColor = new Color(newColor.r * 0.5f, newColor.g * 0.5f, newColor.b * 0.5f, newColor.a);
-        skillIcon.color = newColor;
+        buttonSkill.interactable = false;
     }
 
-    public void EnableSkill()
+    public void EnableSkillButton()
     {
-        buttonSkill.gameObject.SetActive(true);
-        Color newColor = skillIcon.color;
-        newColor = new Color(newColor.r * 2f, newColor.g * 2f, newColor.b * 2f, newColor.a);
-        skillIcon.color = newColor;
+        buttonSkill.interactable = true;
     }
 }

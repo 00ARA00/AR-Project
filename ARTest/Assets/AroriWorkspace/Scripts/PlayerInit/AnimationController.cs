@@ -10,7 +10,9 @@ public class AnimationController : MonoBehaviour
 
     private EnemyActions _enemyActions;
     private UISystem _uISystem;
+
     public event Action OnEnemyReadyToUseSkill;
+    public event Action OnHeroReadyToUseSkill;
 
     private void Awake()
     {
@@ -62,7 +64,7 @@ public class AnimationController : MonoBehaviour
         yield return new WaitForSeconds(delayInSeconds);
 
         if (enemySkill) { OnEnemyReadyToUseSkill?.Invoke(); }
-        if (!enemySkill) { _uISystem.EnableSkillButtons(); }
+        if (!enemySkill) { OnHeroReadyToUseSkill?.Invoke(); }
     }
 
     private void PlayAnimation(string animationName)

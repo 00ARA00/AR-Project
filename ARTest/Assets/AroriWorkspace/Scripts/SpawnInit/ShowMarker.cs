@@ -51,7 +51,6 @@ public class ShowMarker : MonoBehaviour
         _imageTracked = true;
 
         _uISystem.DisableAllUI();
-        _uISystem.ChangeInstructionsText("Choose place to create Arena.");
         _uISystem.EnableArenaCreatorLayout();
     }
 

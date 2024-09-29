@@ -31,8 +31,8 @@ public class StatsRoll : MonoBehaviour
 
         if (!enemyRoll)
         {
-            _uISystem.OnRollStatsButtonClick -= OnRollDicesButtonClick;
-            _uISystem.OnRollStatsButtonClick += OnRollDicesButtonClick;
+            _uISystem.OnRollStatsButtonClick -= OnRollStatsButtonClick;
+            _uISystem.OnRollStatsButtonClick += OnRollStatsButtonClick;
         }
 
         if (enemyRoll)
@@ -51,7 +51,7 @@ public class StatsRoll : MonoBehaviour
         _turnBasedSystem.ChangeTurn(turn);
     }
 
-    private void OnRollDicesButtonClick()
+    private void OnRollStatsButtonClick()
     {
         RandomizeStats();
         _turnBasedSystem.ChangeTurn(turn);

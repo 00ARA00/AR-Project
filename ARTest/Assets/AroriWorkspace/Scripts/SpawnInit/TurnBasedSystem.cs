@@ -58,6 +58,7 @@ public class TurnBasedSystem : MonoBehaviour
     private void EnemyTurn()
     {
         _uISystem.DisableAllUI();
+        _uISystem.DisableAllSkillButtons();
         _uISystem.EnableEnemyTurnLyout();
         OnEnemyTurn?.Invoke();
     }
@@ -66,6 +67,7 @@ public class TurnBasedSystem : MonoBehaviour
     {
         _uISystem.DisableAllUI();
         _uISystem.EnableStatsRollLayout();
+        _uISystem.DisableAllSkillButtons();
     }
 
     private void EndGameWin()
