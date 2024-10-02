@@ -21,9 +21,13 @@ public class UISystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textInstructions;
     [SerializeField] private SkillsPanel skillsPanel;
     [SerializeField] private StatsWidget statsWidget;
+    [SerializeField] private Button rollDicesButton;
+    [SerializeField] private Button respawnButton;
 
     public SkillsPanel SkillsPanel => skillsPanel;
 
+    public event Action OnRespawnButtonClick;
+    public event Action OnDiceRollButtonClick;
     public event Action OnAutoScanBattonClick;
     public event Action OnPlayGameButtonClick;
     public event Action OnSpawnArenaButtonClick;
@@ -33,6 +37,8 @@ public class UISystem : MonoBehaviour
 
     private void Awake()
     {
+        respawnButton.onClick?.AddListener(() => OnRespawnButtonClick?.Invoke());
+        rollDicesButton.onClick?.AddListener(() => OnDiceRollButtonClick?.Invoke());
         autoScanButton.onClick?.AddListener(() => OnAutoScanBattonClick?.Invoke());
         endTurnButton.onClick?.AddListener(() => OnEndTurnButtonClick?.Invoke());
         playGameButton.onClick?.AddListener(() => OnPlayGameButtonClick?.Invoke());
