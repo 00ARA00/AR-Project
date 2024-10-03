@@ -28,6 +28,8 @@ public class SpawnArena : MonoBehaviour
 
     private void OnSpawnArenaButtonClick()
     {
+        if (_raycastSystem.GetRaycastHit() == Vector3.zero)
+            return;
         _uISystem.DisableAllUI();
         _uISystem.EnableBattleStarterLayout();
         SpawnArenaOnMarker();

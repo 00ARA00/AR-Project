@@ -18,16 +18,14 @@ public class UISystem : MonoBehaviour
     [SerializeField] private GameObject textLose;
     [SerializeField] private GameObject gameName;
     [SerializeField] private GameObject instructions;
+    [SerializeField] private GameObject downPanel;
     [SerializeField] private TextMeshProUGUI textInstructions;
     [SerializeField] private SkillsPanel skillsPanel;
     [SerializeField] private StatsWidget statsWidget;
-    [SerializeField] private Button rollDicesButton;
-    [SerializeField] private Button respawnButton;
+    [SerializeField] private GameObject diceArena;
 
     public SkillsPanel SkillsPanel => skillsPanel;
 
-    public event Action OnRespawnButtonClick;
-    public event Action OnDiceRollButtonClick;
     public event Action OnAutoScanBattonClick;
     public event Action OnPlayGameButtonClick;
     public event Action OnSpawnArenaButtonClick;
@@ -37,8 +35,6 @@ public class UISystem : MonoBehaviour
 
     private void Awake()
     {
-        respawnButton.onClick?.AddListener(() => OnRespawnButtonClick?.Invoke());
-        rollDicesButton.onClick?.AddListener(() => OnDiceRollButtonClick?.Invoke());
         autoScanButton.onClick?.AddListener(() => OnAutoScanBattonClick?.Invoke());
         endTurnButton.onClick?.AddListener(() => OnEndTurnButtonClick?.Invoke());
         playGameButton.onClick?.AddListener(() => OnPlayGameButtonClick?.Invoke());
@@ -49,6 +45,8 @@ public class UISystem : MonoBehaviour
 
     public void DisableAllUI()
     {
+        diceArena.SetActive(false);
+        downPanel.SetActive(false);
         autoScanButton.gameObject.SetActive(false);
         textWin.SetActive(false);
         textLose.SetActive(false);
@@ -90,6 +88,8 @@ public class UISystem : MonoBehaviour
     }
     public void EnableStatsRollLayout()
     {
+        diceArena.SetActive(true);
+        downPanel.SetActive(true);
         instructions.SetActive(true);
         statsWidget.gameObject.SetActive(true);
         skillsPanel.gameObject.SetActive(true);
@@ -99,6 +99,7 @@ public class UISystem : MonoBehaviour
 
     public void EnableBattleLayout()
     {
+        downPanel.SetActive(true);
         instructions.SetActive(true);
         statsWidget.gameObject.SetActive(true);
         skillsPanel.gameObject.SetActive(true);
@@ -109,6 +110,7 @@ public class UISystem : MonoBehaviour
     public void EnableEnemyTurnLyout()
     {
         instructions.SetActive(true);
+        downPanel.SetActive(true);
         skillsPanel.gameObject.SetActive(true);
         ChangeInstructionsText("Enemy's turn");
     }
@@ -131,7 +133,7 @@ public class UISystem : MonoBehaviour
 
     public void DisableAllSkillButtons()
     {
-        for (int i = 0;i < skillsPanel.SkillButtons.Length; i++)
+        for (int i = 0; i < skillsPanel.SkillButtons.Length; i++)
         {
             skillsPanel.SkillButtons[i].DisableSkillButton();
         }

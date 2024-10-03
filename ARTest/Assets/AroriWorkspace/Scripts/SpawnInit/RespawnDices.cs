@@ -15,10 +15,15 @@ public class RespawnDices : MonoBehaviour
     private Vector3[] dicesPositions = new Vector3[3];
     private Quaternion[] dicesRotations = new Quaternion[3];
 
+    private UISystem _uiSystem;
+
     private void Awake()
     {
-        spawnInitializer.UISystem.OnRespawnButtonClick -= OnRespawnButtonClick;
-        spawnInitializer.UISystem.OnRespawnButtonClick += OnRespawnButtonClick;
+        _uiSystem = spawnInitializer.UISystem;
+
+        _uiSystem.OnEndTurnButtonClick -= OnEndTurnButtonClick;
+        _uiSystem.OnEndTurnButtonClick += OnEndTurnButtonClick;
+
 
         for (int i = 0; i < dicesTransform.Count(); i++)
         {
@@ -27,7 +32,7 @@ public class RespawnDices : MonoBehaviour
         }
     }
 
-    private void OnRespawnButtonClick()
+    private void OnEndTurnButtonClick()
     {
         Respawn();
     }

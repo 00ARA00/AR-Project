@@ -21,15 +21,17 @@ public class DiceRoll : MonoBehaviour
     private Vector3 forceVector;
     private System.Random _random;
 
+
     private void Awake()
     {
-        spawnInitializer.UISystem.OnDiceRollButtonClick -= OnDiceRollButtonClick;
-        spawnInitializer.UISystem.OnDiceRollButtonClick += OnDiceRollButtonClick;
+        spawnInitializer.UISystem.OnRollStatsButtonClick -= OnRollStatsButtonClick;
+        spawnInitializer.UISystem.OnRollStatsButtonClick += OnRollStatsButtonClick;
+
         _random = spawnInitializer.SpawnResources.Random;
         forceVector = new Vector3(-1, 0, 0);
     }
 
-    private void OnDiceRollButtonClick()
+    private void OnRollStatsButtonClick()
     {
         Roll();
     }

@@ -23,6 +23,10 @@ public class TurnBasedSystem : MonoBehaviour
     private PlayerInitializer _heroInitializaer;
     private PlayerInitializer _enemyInitializaer;
 
+    private Turn _currentTurn;
+
+    public Turn CurrentTurn => _currentTurn;
+
     private void Awake()
     {
         _uISystem = spawnInitializer.UISystem;
@@ -87,6 +91,7 @@ public class TurnBasedSystem : MonoBehaviour
     public void ChangeTurn(Turn turn)
     {
         RealizeTurn(turn);
+        _currentTurn = turn;
     }
 
     private void RealizeTurn(Turn turn)

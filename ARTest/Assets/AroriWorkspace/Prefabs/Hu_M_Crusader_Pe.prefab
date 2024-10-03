@@ -77270,7 +77270,7 @@ MonoBehaviour:
   index: 3
   strengthRequirment: 3
   dexterityRequirment: 2
-  intelligenceRequirment: 1
+  intelligenceRequirment: 2
   skillIcon: {fileID: 21300000, guid: 6ec1c38865f239245b0bca283e3e287b, type: 3}
   isEnemySkill: 0
   animationName: crusader_skill4
@@ -77569,7 +77569,7 @@ MonoBehaviour:
   index: 4
   strengthRequirment: 3
   dexterityRequirment: 3
-  intelligenceRequirment: 1
+  intelligenceRequirment: 2
   skillIcon: {fileID: 21300000, guid: 39cdbbf76217fa441b55d2b1d59ca770, type: 3}
   isEnemySkill: 0
   animationName: crusader_skill5

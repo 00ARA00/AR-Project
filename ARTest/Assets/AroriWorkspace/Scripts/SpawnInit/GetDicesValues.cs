@@ -14,18 +14,33 @@ public class GetDicesValues : MonoBehaviour
     private bool _isCoroutineEnd;
     private bool _isMethodCalled;
 
+    private UISystem _uiSystem;
+    private TurnBasedSystem _turnBasedSystem;
+    private PlayerInitializer _heroInitializer;
+
     private void Awake()
     {
-        spawnInitializer.UISystem.OnRespawnButtonClick -= OnRespawnButtonClick;
-        spawnInitializer.UISystem.OnRespawnButtonClick += OnRespawnButtonClick;
+        _turnBasedSystem = spawnInitializer.TurnBasedSystem;
+        _uiSystem = spawnInitializer.UISystem;
 
-        spawnInitializer.UISystem.OnDiceRollButtonClick -= OnDiceRollButtonClick;
-        spawnInitializer.UISystem.OnDiceRollButtonClick += OnDiceRollButtonClick;
+        _uiSystem.OnEndTurnButtonClick -= OnEndTurnButtonClick;
+        _uiSystem.OnEndTurnButtonClick += OnEndTurnButtonClick;
+
+        spawnInitializer.ImageTracker.OnImageTracked -= OnImageTracked;
+        spawnInitializer.ImageTracker.OnImageTracked += OnImageTracked;
+
+        spawnInitializer.UISystem.OnRollStatsButtonClick -= OnRollStatsButtonClick;
+        spawnInitializer.UISystem.OnRollStatsButtonClick += OnRollStatsButtonClick;
     }
 
-    private void OnRespawnButtonClick()
+    private void OnEndTurnButtonClick()
     {
         ResetBools();
+    }
+
+    private void OnImageTracked()
+    {
+        _heroInitializer = spawnInitializer.HeroInitializer;
     }
 
     private void Update()
@@ -36,7 +51,7 @@ public class GetDicesValues : MonoBehaviour
         }
     }
 
-    private void OnDiceRollButtonClick()
+    private void OnRollStatsButtonClick()
     {
         StartCoroutine(WaitForDicesMove());
     }
@@ -52,7 +67,7 @@ public class GetDicesValues : MonoBehaviour
     {
         if (strDice.IsDiceStationary && dexDice.IsDiceStationary && intDice.IsDiceStationary)
         {
-            GetValues();
+            StartCoroutine(WaitForSomeTime());
         }
         else
         {
@@ -62,16 +77,27 @@ public class GetDicesValues : MonoBehaviour
 
     private void GetValues()
     {
-        if (!_isMethodCalled)
+        if (_turnBasedSystem.CurrentTurn == Turn.NewRound)
         {
-            Debug.Log(strDice.IsDiceStationary + " " + dexDice.IsDiceStationary + " " + intDice.IsDiceStationary);
-            Debug.Log(strDice.Side + " " + dexDice.Side + " " + intDice.Side);
-            _isMethodCalled = true;
+            if (!_isMethodCalled)
+            {
+                _heroInitializer.Stats.AddAttributes(strDice.Side, dexDice.Side, intDice.Side);
+
+                _isMethodCalled = true;
+                _turnBasedSystem.ChangeTurn(Turn.PlayerTurn);
+            }
+            else
+            {
+                return;
+            }
         }
-        else
-        {
-            return;
-        }
+    }
+
+    private IEnumerator WaitForSomeTime()
+    {
+        yield return new WaitForSeconds(1f);
+
+        GetValues();
     }
 
     private void ResetBools()
